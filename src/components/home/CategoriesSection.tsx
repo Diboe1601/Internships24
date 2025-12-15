@@ -7,14 +7,14 @@ const categories = [
     icon: Briefcase,
     title: "Internships",
     description: "Entry-level work experience opportunities across various industries.",
-    count: "150+",
+    count: "100+",
     href: "/blog",
   },
   {
     icon: GraduationCap,
     title: "Learnerships",
     description: "Structured programmes combining work experience with formal training.",
-    count: "120+",
+    count: "100+",
     href: "/blog",
   },
   {

@@ -20,8 +20,8 @@ const contactInfo = [
     icon: Mail,
     title: "Email Us",
     description: "Send us an email and we'll respond as soon as possible.",
-    value: "info@internships24.co.za",
-    href: "mailto:info@internships24.co.za",
+    value: "internships24.official@gmail.com",
+    href: "mailto:internships24.official@gmail.com",
   },
   {
     icon: MapPin,
@@ -48,6 +48,7 @@ const Contact = () => {
     message: "",
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [submitResult, setSubmitResult] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -57,7 +58,7 @@ const Contact = () => {
     }
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setErrors({});
 
@@ -75,15 +76,43 @@ const Contact = () => {
 
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      const form = e.currentTarget;
+      const fd = new FormData(form);
+      fd.append("access_key", "2bc06493-5008-4fef-9580-e964e72c01cb");
+      fd.append("from_name", "Internships24 Website");
+      fd.append("replyto", formData.email);
+      fd.append("subject", formData.subject ? `New message: ${formData.subject}` : "New Contact Submission");
 
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for contacting us. We'll get back to you soon.",
-    });
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: fd,
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        setSubmitResult("Success!");
+        setIsSubmitted(true);
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for contacting us. We'll get back to you soon.",
+        });
+      } else {
+        setSubmitResult("Error");
+        toast({
+          title: "Submission Error",
+          description: data.message || "Please try again later.",
+        });
+      }
+    } catch (err) {
+      setSubmitResult("Error");
+      toast({
+        title: "Network Error",
+        description: "Could not submit the form. Please try again.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -166,7 +195,7 @@ const Contact = () => {
                         <Input
                           id="name"
                           name="name"
-                          placeholder="John Doe"
+                          placeholder="Sello Mpho"
                           value={formData.name}
                           onChange={handleChange}
                           className={errors.name ? "border-destructive" : ""}
@@ -181,7 +210,7 @@ const Contact = () => {
                           id="email"
                           name="email"
                           type="email"
-                          placeholder="john@example.com"
+                          placeholder="sello@example.com"
                           value={formData.email}
                           onChange={handleChange}
                           className={errors.email ? "border-destructive" : ""}
@@ -236,6 +265,9 @@ const Contact = () => {
                         </>
                       )}
                     </Button>
+                    {submitResult && (
+                      <p className="text-sm text-muted-foreground mt-2">{submitResult}</p>
+                    )}
                   </form>
                 )}
               </div>

@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, Users, Briefcase, GraduationCap } from "lucide-react";
 
 const stats = [
-  { icon: Briefcase, label: "Opportunities", value: "500+" },
-  { icon: Users, label: "Users Helped", value: "10K+" },
-  { icon: GraduationCap, label: "Success Stories", value: "1K+" },
+  { icon: Briefcase, label: "Opportunities", value: "100+" },
+  { icon: Users, label: "Users Helped", value: "100+" },
+  { icon: GraduationCap, label: "Success Stories", value: "100+" },
 ];
 
 export function HeroSection() {

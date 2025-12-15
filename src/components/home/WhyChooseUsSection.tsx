@@ -76,10 +76,10 @@ export function WhyChooseUsSection() {
           <div className="relative">
             <div className="aspect-square rounded-2xl gradient-primary p-8 flex items-center justify-center">
               <div className="text-center text-primary-foreground">
-                <div className="text-6xl md:text-7xl font-heading font-extrabold mb-2">10K+</div>
+                <div className="text-6xl md:text-7xl font-heading font-extrabold mb-2">100+</div>
                 <div className="text-xl text-primary-foreground/80">Users Helped</div>
                 <div className="mt-6 pt-6 border-t border-primary-foreground/20">
-                  <div className="text-3xl md:text-4xl font-heading font-bold mb-1">500+</div>
+                  <div className="text-3xl md:text-4xl font-heading font-bold mb-1">100+</div>
                   <div className="text-primary-foreground/70">Active Opportunities</div>
                 </div>
               </div>
