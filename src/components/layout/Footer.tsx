@@ -48,8 +48,8 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-accent" />
-                <a href="mailto:info@internships24.co.za" className="hover:text-accent transition-colors">
-                  info@internships24.co.za
+                <a href="mailto:internships24.office@gmail.com" className="hover:text-accent transition-colors">
+                  internships24.office@gmail.com
                 </a>
               </div>
             </div>
