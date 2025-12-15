@@ -34,41 +34,7 @@ Internships provide invaluable work experience that bridges the gap between acad
 - **Skill Development**: Gain technical and soft skills employers value
 - **Career Clarity**: Understand what you want from your career
 
-## Top Industries Offering Graduate Internships
 
-### 1. Financial Services
-
-Major banks and financial institutions like Standard Bank, FNB, Absa, and Nedbank offer structured internship programmes for graduates in:
-- Accounting and Finance
-- Risk Management
-- Investment Banking
-- Data Analytics
-
-### 2. Information Technology
-
-The tech sector continues to grow, with companies like:
-- Vodacom
-- MTN
-- Dimension Data
-- Various tech startups
-
-These organisations offer internships in software development, cybersecurity, data science, and IT support.
-
-### 3. Engineering
-
-Engineering firms and manufacturing companies seek graduates for:
-- Civil Engineering
-- Mechanical Engineering
-- Electrical Engineering
-- Chemical Engineering
-
-### 4. Healthcare
-
-Both public and private healthcare sectors offer internships for:
-- Medical professionals
-- Healthcare administration
-- Pharmaceutical companies
-- Medical research
 
 ## How to Apply
 
