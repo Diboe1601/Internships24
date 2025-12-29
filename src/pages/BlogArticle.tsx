@@ -1,7 +1,7 @@
 import { Layout } from "@/components/layout/Layout";
 import { Link, useParams, Navigate, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, ArrowLeft, User, Share2 } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, User } from "lucide-react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blogPosts";
 
 const BlogArticle = () => {
@@ -14,7 +14,9 @@ const BlogArticle = () => {
   }
 
   const isTopInternshipsGuide = post.slug === "top-internships-graduates-south-africa-2026";
-  const internships: {
+  const isLatestLearnerships = post.slug === "latest-learnerships-south-africa";
+  
+  const opportunities: {
     title: string;
     key: string;
     details?: JSX.Element;
@@ -103,9 +105,9 @@ const BlogArticle = () => {
               <li>CV, cover letter, transcripts usually required.</li>
             </ul>
           </div>
-          <p className="text-muted-foreground">Note: Once official Visa postings open, they’ll list specific qualification matches and duties.</p>
-          </div>
-        ),
+          <p className="text-muted-foreground">Note: Once official Visa postings open, they'll list specific qualification matches and duties.</p>
+        </div>
+      ),
     },
     {
       title: "SA Government: Internship 2026",
@@ -137,15 +139,15 @@ const BlogArticle = () => {
             <p className="font-semibold">Benefits:</p>
             <p>Structured workplace exposure, usually with a monthly stipend.</p>
           </div>
-          </div>
-        ),
+        </div>
+      ),
     },
     {
       title: "Mercedes-Benz: Graduate Internships 2026",
       key: "mercedes-benz",
       details: (
         <div className="space-y-4">
-          <p><strong>About:</strong> Mercedes-Benz South Africa’s Graduate Development Programme (GDP) 2026 offers practical experience at a world-class automotive company.</p>
+          <p><strong>About:</strong> Mercedes-Benz South Africa's Graduate Development Programme (GDP) 2026 offers practical experience at a world-class automotive company.</p>
           <div>
             <p className="font-semibold">Requirements:</p>
             <ul className="list-disc ml-5">
@@ -172,8 +174,8 @@ const BlogArticle = () => {
             <p className="font-semibold">Location:</p>
             <p>Pretoria, Gauteng.</p>
           </div>
-          </div>
-        ),
+        </div>
+      ),
     },
     {
       title: "Pernod Ricard: Graduate Internships 2026",
@@ -184,7 +186,7 @@ const BlogArticle = () => {
           <div>
             <p className="font-semibold">Requirements:</p>
             <ul className="list-disc ml-5">
-              <li>Completed Bachelor’s degree or higher in relevant area.</li>
+              <li>Completed Bachelor's degree or higher in relevant area.</li>
               <li>Strong communication (verbal & written).</li>
               <li>Good Microsoft Office skills (Excel, Word, PowerPoint).</li>
               <li>Positive, entrepreneurial attitude.</li>
@@ -202,8 +204,8 @@ const BlogArticle = () => {
               <li>Corporate Affairs</li>
             </ul>
           </div>
-          </div>
-        ),
+        </div>
+      ),
     },
     {
       title: "Unilever: Learnership Opportunities 2026",
@@ -212,7 +214,7 @@ const BlogArticle = () => {
         <div className="space-y-4">
           <div>
             <p className="font-semibold">About:</p>
-            <p>Unilever’s 2026 learnership is more operations / production focused rather than a corporate graduate internship, typically offered at factories such as in Boksburg.</p>
+            <p>Unilever's 2026 learnership is more operations / production focused rather than a corporate graduate internship, typically offered at factories such as in Boksburg.</p>
           </div>
           <div>
             <p className="font-semibold">Requirements:</p>
@@ -259,15 +261,254 @@ const BlogArticle = () => {
         </div>
       ),
     },
-  ]
-  : [];
+  ] : isLatestLearnerships ? [
+    {
+      title: "MICT SETA: ICT & Digital Skills Learnership",
+      key: "mict-seta",
+      details: (
+        <div className="space-y-4">
+          <p><strong>About:</strong> MICT SETA offers accredited learnerships in ICT and digital skills, combining classroom learning with workplace experience in systems development, IT support, and digital marketing.</p>
+          <div>
+            <p className="font-semibold">Duration & Stipend:</p>
+            <ul className="list-disc ml-5">
+              <li>Typically 12-24 months</li>
+              <li>Monthly stipend: R3,000 - R6,500 (varies by level)</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Requirements:</p>
+            <ul className="list-disc ml-5">
+              <li>South African citizen or permanent resident</li>
+              <li>Age 18-35</li>
+              <li>Matric (Grade 12) or equivalent qualification</li>
+              <li>Unemployed at time of application</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Fields:</p>
+            <p>Systems Development, IT Support, Digital Marketing</p>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "MERSETA: Engineering & Manufacturing Learnership",
+      key: "merseta",
+      details: (
+        <div className="space-y-4">
+          <p><strong>About:</strong> MERSETA provides learnerships in engineering and manufacturing sectors including welding, fitting, turning, and mechanical engineering roles.</p>
+          <div>
+            <p className="font-semibold">Duration & Stipend:</p>
+            <ul className="list-disc ml-5">
+              <li>12-24 months typically</li>
+              <li>Includes workplace experience with stipend</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Requirements:</p>
+            <ul className="list-disc ml-5">
+              <li>South African citizenship</li>
+              <li>Matric with Mathematics and Science preferred</li>
+              <li>Age 18-35</li>
+              <li>Unemployed status</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Fields:</p>
+            <p>Welding, Fitting, Turning, Mechanical Engineering, Technical trades</p>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "W&RSETA: Retail Operations Learnership",
+      key: "wrseta",
+      details: (
+        <div className="space-y-4">
+          <p><strong>About:</strong> Wholesale and Retail SETA offers learnerships in retail operations, sales, and stock control with practical experience in the retail sector.</p>
+          <div>
+            <p className="font-semibold">Duration & Stipend:</p>
+            <ul className="list-disc ml-5">
+              <li>12-24 months</li>
+              <li>Monthly stipend provided</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Requirements:</p>
+            <ul className="list-disc ml-5">
+              <li>South African citizenship</li>
+              <li>Grade 12 (Matric)</li>
+              <li>Age 18-35</li>
+              <li>Unemployed status required</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Fields:</p>
+            <p>Retail Operations, Sales, Stock Control, Customer Service</p>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "BANKSETA: Banking & Finance Learnership",
+      key: "bankseta",
+      details: (
+        <div className="space-y-4">
+          <p><strong>About:</strong> Banking sector learnerships offering structured training and on-the-job experience in banking and financial services roles.</p>
+          <div>
+            <p className="font-semibold">Duration & Stipend:</p>
+            <ul className="list-disc ml-5">
+              <li>12-24 months</li>
+              <li>Competitive monthly stipend</li>
+              <li>NQF-registered qualification upon completion</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Requirements:</p>
+            <ul className="list-disc ml-5">
+              <li>South African citizen</li>
+              <li>Matric certificate</li>
+              <li>Age 18-35</li>
+              <li>Unemployed at application time</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Fields:</p>
+            <p>Banking Services, Finance, Customer Service, Administrative roles</p>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "UIF-LAP: Free 12-Month Learnership Programme",
+      key: "uif-lap",
+      details: (
+        <div className="space-y-4">
+          <p><strong>About:</strong> UIF Labour Activation Programme offers free learnerships across multiple sectors including Agriculture, Construction, ICT, Environmental practice, and Admin roles.</p>
+          <div>
+            <p className="font-semibold">Duration & Stipend:</p>
+            <ul className="list-disc ml-5">
+              <li>12-month structured programme</li>
+              <li>Stipends vary by sector (R3,000 - R6,500 monthly)</li>
+              <li>Free to apply</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Available Sectors:</p>
+            <ul className="list-disc ml-5">
+              <li>Agriculture</li>
+              <li>Construction</li>
+              <li>ICT</li>
+              <li>Environmental practice</li>
+              <li>Administrative roles</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Eligibility:</p>
+            <p>South African citizen, 18-35 years old, unemployed, all provinces covered</p>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "Department Learnerships: Agriculture & Rural Development",
+      key: "dept-agriculture",
+      details: (
+        <div className="space-y-4">
+          <p><strong>About:</strong> Department of Agriculture & Rural Development offers learnerships in agricultural and rural development with NQF Level 2-4 qualifications.</p>
+          <div>
+            <p className="font-semibold">Duration & Stipend:</p>
+            <ul className="list-disc ml-5">
+              <li>12-24 months (varies)</li>
+              <li>Monthly stipend provided</li>
+              <li>NQF registered qualification</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Requirements:</p>
+            <ul className="list-disc ml-5">
+              <li>Age 18-35 years</li>
+              <li>South African citizenship</li>
+              <li>Matric or equivalent</li>
+              <li>Unemployed status</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Focus Areas:</p>
+            <p>Agricultural skills, Rural development, Sustainable farming practices</p>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "LearnMe Learnership 2026: Business Admin & Marketing",
+      key: "learnme",
+      details: (
+        <div className="space-y-4">
+          <p><strong>About:</strong> LearnMe offers business administration, marketing, and contact centre support learnerships across major South African cities with practical workplace experience.</p>
+          <div>
+            <p className="font-semibold">Duration & Stipend:</p>
+            <ul className="list-disc ml-5">
+              <li>12-month learnerships</li>
+              <li>Monthly stipend during programme</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Fields Available:</p>
+            <ul className="list-disc ml-5">
+              <li>Business Administration</li>
+              <li>Marketing</li>
+              <li>Contact Centre Operations</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Requirements:</p>
+            <ul className="list-disc ml-5">
+              <li>South African citizen</li>
+              <li>Matric (Grade 12)</li>
+              <li>Age 18-35</li>
+              <li>Must be unemployed</li>
+            </ul>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "YES Learnership: National Youth Employment Service",
+      key: "yes-learnership",
+      details: (
+        <div className="space-y-4">
+          <p><strong>About:</strong> National Youth Service (YES) offers 12-month paid work experience and skills development through various companies and public sector partners across South Africa.</p>
+          <div>
+            <p className="font-semibold">Duration & Pay:</p>
+            <ul className="list-disc ml-5">
+              <li>12-month paid work experience</li>
+              <li>Monthly stipend and benefits</li>
+              <li>Skills training included</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Eligibility:</p>
+            <ul className="list-disc ml-5">
+              <li>South African citizen</li>
+              <li>Age 18-35 years old</li>
+              <li>Unemployed</li>
+              <li>Willing to work in various sectors</li>
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold">Available Across:</p>
+            <p>Retail, Manufacturing, Finance, ICT, and other sectors nationwide</p>
+          </div>
+        </div>
+      ),
+    },
+  ] : [];
 
-const visibleInternships = internships;
-
-// Get related posts (same category, excluding current)
-const relatedPosts = blogPosts
-  .filter(p => p.category === post.category && p.id !== post.id)
-  .slice(0, 3);
+  // Get related posts (same category, excluding current)
+  const relatedPosts = blogPosts
+    .filter(p => p.category === post.category && p.id !== post.id)
+    .slice(0, 3);
 
   return (
     <Layout>
@@ -309,16 +550,18 @@ const relatedPosts = blogPosts
         </div>
       </section>
 
-      {isTopInternshipsGuide && (
+      {(isTopInternshipsGuide || isLatestLearnerships) && (
         <section className="section-padding bg-muted">
           <div className="container-main">
             <div className="max-w-4xl mx-auto text-center mb-8">
-              <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">Available Internships (2026)</h2>
+              <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">
+                {isTopInternshipsGuide ? "Available Internships (2026)" : "Available Learnerships"}
+              </h2>
               <p className="text-muted-foreground mt-2">Browse verified opportunities. Click any card to view key requirements and details.</p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {visibleInternships.map((item, index) => (
+              {opportunities.map((item, index) => (
                 <div
                   key={item.key}
                   role="button"
@@ -340,7 +583,7 @@ const relatedPosts = blogPosts
                     </h3>
 
                     <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
-                      Graduate and early-career opportunities across South Africa for 2026.
+                      {isTopInternshipsGuide ? "Graduate and early-career opportunities across South Africa for 2026." : "Gain nationally recognised qualifications with workplace experience and stipends."}
                     </p>
 
                     <div className="flex items-center justify-between">
