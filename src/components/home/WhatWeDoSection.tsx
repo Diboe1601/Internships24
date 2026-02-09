@@ -5,25 +5,25 @@ const features = [
     icon: Search,
     title: "Curated Opportunities",
     description:
-      "We thoroughly investigate, evaluate, and gather graduate programs, learnerships, internships, and bursaries from reliable public sources all around South Africa. Our objective is to eliminate the necessity for students and job seekers to search across different platforms in order to find genuine possibilities. ",
+      "We carefully research, assess, and compile bursaries, learnerships, internships, and graduate programs from reputable public sources in South Africa. Our goal is to make it unnecessary for students and job seekers to look through many platforms in search of real opportunities.",
   },
   {
     icon: FileText,
     title: "Career Guidance",
     description:
-      "Our instructional articles and tutorials assist you with understanding the requirements for applications, enhancing your cover letter and CV, getting ready for interviews, and making wise career selections. The information is intended to help students and recent graduates at various phases of their professional development. ",
+      "Our lessons and educational materials help you make informed professional decisions, improve your CV and cover letter, prepare for interviews, and comprehend application criteria. Students and recent graduates at different stages of their professional growth are supposed to find the information useful.",
   },
   {
     icon: Shield,
     title: "Scam Protection",
     description:
-      "By comparing job advertisements to official sources and providing clear instructions on how to spot and steer clear of scammers, we encourage safe job seeking. To assist safeguard personal information, we also advise users about typical red flags, like money demands and unconfirmed contacts.",
+      "We promote safe job searching by cross-referencing job postings with official sources and offering unambiguous guidance on how to identify and avoid scammers. We also warn users about common red flags, such as money requests and unverified contacts, to help protect personal information.",
   },
   {
     icon: Lightbulb,
     title: "Free Resources",
     description:
-      "Access to all of Internships24's materials is totally free. We don't require subscriptions or charge application fees. Our goal is to make career information and advice available to everyone, irrespective of financial status or background. ",
+      "Internships24 offers free access to all of its resources. There are no application costs or subscription requirements. Regardless of background or financial situation, we want to make career information and guidance accessible to everybody.",
   },
 ];
 
@@ -39,10 +39,8 @@ export function WhatWeDoSection() {
             Your Gateway to Career Opportunities
           </h2>
           <p className="text-muted-foreground text-lg">
-            Internships24 is an independent information platform that assists young people in South Africa in finding professional possibilities, 
-            including graduate programs, learnerships, internships, and bursaries. 
-            We offer instructions and direct links so people can apply on their own through official channels; 
-            we do not serve as a recruiting agency or employer.
+            Internships24 is an impartial information site that helps South African youth locate career opportunities, such as bursaries, learnerships, internships, and graduate programs. 
+            We don't act as an employer or recruiting agency; instead, we provide links and instructions to help people apply independently through the proper procedures.
           </p>
         </div>
 
