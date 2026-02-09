@@ -8,31 +8,31 @@ import {
 const faqs = [
  {
   question: "Who can use Internships24?",
-  answer: "Internships24 is created for South African learners and job seekers at different stages of their education and career journey. This includes high school learners, TVET college students, university students, recent graduates, and unemployed youth who are actively searching for internships, learnerships, bursaries, graduate programmes, and entry-level career opportunities."
+  answer: "For South African students and job seekers at various phases of their academic and professional development, Internships24 was established. Those who are actively looking for internships, learnerships, bursaries, graduate programs, and entry-level professional prospects include high school students, TVET college students, university students, recent graduates, and unemployed youngsters."
 },
 {
   question: "Do I need formal qualifications to apply for internships?",
-  answer: "Qualification requirements differ depending on the opportunity and the organisation offering it. Some internships and learnerships require completed qualifications, while others are open to current students, recent matriculants, or candidates with relevant skills. Applicants should always review the stated requirements carefully before applying."
+  answer: "Depending on the opportunity and the company providing it, different qualifications are needed. While some internships and learnerships are available to current students, recent matriculants, or candidates with relevant skills, others require completed qualifications. Before applying, candidates should always thoroughly read the prerequisites. "
 },
 {
   question: "How do I apply for opportunities listed on Internships24?",
-  answer: "Each opportunity published on Internships24 includes clear application instructions and a link to the official employer, training provider, or organisation. All applications are submitted directly to the opportunity provider, as Internships24 does not collect applications or act as a recruitment agency."
+  answer: "Clear application guidelines and a link to the actual employer, training provider, or organization are included with every opportunity posted on Internships24. Since Internships24 does not gather applications or serve as a recruitment agency, all applications are sent straight to the opportunity source."
 },
 {
   question: "Are opportunities on Internships24 limited to South African citizens?",
-  answer: "Most opportunities listed on Internships24 are intended for South African citizens or permanent residents, particularly those funded by government departments or SETAs. Eligibility requirements, including citizenship or residency conditions, are always specified in the opportunity description."
+  answer: "South African nationals or permanent residents are the target audience for the majority of internships listed on Internships24, especially those sponsored by SETAs or government agencies. The position description always outlines eligibility requirements, such as citizenship or residency requirements."
 },
 {
   question: "Can I apply for more than one internship or learnership?",
-  answer: "Yes, applicants are encouraged to apply for multiple opportunities as long as they meet the minimum requirements for each role. Applying to several suitable opportunities can increase your chances of being shortlisted or selected."
+  answer: "Yes, applicants are encouraged to apply for multiple opportunities as long as they meet the minimum requirements for each role. Applying to several suitable opportunities can increase your chances of being shortlisted or selected. "
 },
 {
   question: "Does Internships24 provide help with CVs and cover letters?",
-  answer: "Yes. Internships24 offers career guidance content, including CV writing tips, cover letter guidance, and interview preparation resources. These materials are designed to help students and graduates improve their applications and present themselves professionally to employers."
+  answer: "Indeed. Career advising information from Internships24 includes resources for interview preparation, cover letter advice, and CV writing help. These resources are intended to help graduates and students enhance their applications and show employers that they are professional. "
 },
 {
   question: "How can I tell if an opportunity is legitimate?",
-  answer: "We aim to share opportunities from official and reputable sources such as company websites, government platforms, and recognised organisations. However, applicants are strongly advised to verify details independently, avoid paying any fees, and conduct their own research before applying."
+  answer: "Our goal is to share possibilities from credible and official sources, including government platforms, business websites, and well-known organizations. However, before submitting, candidates are highly encouraged to do their own research, avoid paying any fees, and independently confirm any information."
 },
 {
   question: "Do internships and learnerships usually pay a stipend?",
@@ -40,11 +40,11 @@ const faqs = [
 },
 {
   question: "Can I submit an opportunity to be featured on Internships24?",
-  answer: "Yes. If you are aware of a legitimate internship, learnership, bursary, or graduate programme, you may contact Internships24 for review. Approved opportunities may be published at no cost, provided they meet our content and verification guidelines."
+  answer: "Indeed. You can explore reputable internships, learnerships, bursaries, and graduate programs by getting in touch with Internships24. If an opportunity satisfies our content and verification requirements, it may be published for free."
 },
 {
   question: "Will Internships24 ever ask users to pay fees?",
-  answer: "No. Internships24 will never request payment for access to opportunities, applications, or career information. If anyone claims to represent Internships24 and asks for money, users should treat this as a potential scam and proceed with caution."
+  answer: "No, access to opportunities, applications, or career information will never be paid for by Internships24. Users should proceed with caution and take any request for money made by someone posing as Internships24 as a possible fraud."
 }
 
 ];

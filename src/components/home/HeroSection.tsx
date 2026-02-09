@@ -40,10 +40,10 @@ export function HeroSection() {
               className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-8 animate-fade-up"
               style={{ animationDelay: "0.2s" }}
             >
-              Internships24 helps students, graduates, and unemployed youth discover
-              internships, learnerships, graduate programmes, and career guidance
-              from trusted public sources. We provide information to support your
-              job search — applications are made directly with employers.
+              Through reliable public sources, Internships24 assists students, recent graduates, 
+              and jobless youngsters in finding internships, learnerships, graduate programs, and career counseling. 
+              We give you information to help you find a job; applications are submitted to employers directly.
+
             </p>
 
             {/* CTAs */}

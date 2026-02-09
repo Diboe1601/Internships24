@@ -5,25 +5,25 @@ const audiences = [
     icon: GraduationCap,
     title: "University Graduates",
     description:
-      "Recent university graduates who have completed diplomas or degrees and are seeking their first professional work experience. This includes graduates looking for internships, graduate programmes, or entry-level roles that help them apply academic knowledge in real-world work environments.",
+      "Recent grads looking for their first professional job experience after earning degrees or diplomas from universities. Graduates seeking internships, graduate programs, or entry-level positions that enable them to use their academic knowledge in practical work settings are included in this category.",
   },
   {
     icon: BookOpen,
     title: "TVET Students",
     description:
-      "Students and graduates from TVET colleges who are pursuing technical or vocational careers and are looking for learnerships, apprenticeships, or workplace-based training opportunities to gain practical skills and industry exposure.",
+      "In order to obtain real-world experience and exposure to the industry, students and recent graduates of Technical and Vocational Education and Training (TVET) institutions seeking technical or vocational employment are searching for learnerships, apprenticeships, or workplace-based training opportunities.",
   },
   {
     icon: Building2,
     title: "Current Students",
     description:
-      "High school learners, TVET students, and university students who are still studying and are searching for vacation work, part-time internships, bursaries, or funding opportunities to support their education and gain early career experience.",
+      "In order to support their studies and obtain early career experience, high school students, TVET students, and university students who are still enrolled in classes are looking for financial opportunities, part-time internships, bursaries, or vacation work.",
   },
   {
     icon: UserSearch,
     title: "Unemployed Youth",
     description:
-      "Young South Africans who are currently unemployed and actively seeking entry-level opportunities, skills development programmes, or work experience initiatives that can help them enter the job market and build employability.",
+      "Young South Africans without jobs who are actively looking for work experience programs, skills development courses, or entry-level positions that will assist them get into the workforce and improve their employability.",
   },
 ];
 
@@ -39,9 +39,9 @@ export function WhoItsForSection() {
             Supporting South African Youth
           </h2>
           <p className="text-muted-foreground text-lg">
-            Internships24 is designed to support South African youth at different stages of their education
-            and career journey. Whether you are studying, recently graduated, or searching for your first
-            opportunity, our platform provides guidance and information to help you explore available options.
+            The goal of Internships24 is to assist young South Africans at various phases of their academic and professional development. 
+            Our platform offers advice and information to assist you in exploring your possibilities, regardless of whether you are a student, 
+            a recent graduate, or looking for your first opportunity.
           </p>
         </div>
 
