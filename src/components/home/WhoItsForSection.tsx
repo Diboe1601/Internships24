@@ -5,13 +5,13 @@ const audiences = [
     icon: GraduationCap,
     title: "University Graduates",
     description:
-      "Recent grads looking for their first professional job experience after earning degrees or diplomas from universities. Graduates seeking internships, graduate programs, or entry-level positions that enable them to use their academic knowledge in practical work settings are included in this category.",
+      "Students and recent graduates seeking their first professional experience with an internship, graduate program or entry level position to apply the knowledge they have acquired through academia to real-world working situations",
   },
   {
     icon: BookOpen,
     title: "TVET Students",
     description:
-      "In order to obtain real-world experience and exposure to the industry, students and recent graduates of Technical and Vocational Education and Training (TVET) institutions seeking technical or vocational employment are searching for learnerships, apprenticeships, or workplace-based training opportunities.",
+      "Technical or vocational employment and the acquisition of real world experience and familiarity with the industry as a means of obtaining a technical or vocational position are the reasons that students and recent graduates of TVET institutions are seeking out learnership, apprentice or on-the-job training programs. ",
   },
   {
     icon: Building2,
@@ -23,7 +23,7 @@ const audiences = [
     icon: UserSearch,
     title: "Unemployed Youth",
     description:
-      "Young South Africans without jobs who are actively looking for work experience programs, skills development courses, or entry-level positions that will assist them get into the workforce and improve their employability.",
+      "Young South Africans that are unemployed and currently seeking out work experience programs, skill development courses or entry level positions to assist in getting employed and improving employability.",
   },
 ];
 
@@ -39,9 +39,8 @@ export function WhoItsForSection() {
             Supporting South African Youth
           </h2>
           <p className="text-muted-foreground text-lg">
-            The goal of Internships24 is to assist young South Africans at various phases of their academic and professional development. 
-            Our platform offers advice and information to assist you in exploring your possibilities, regardless of whether you are a student, 
-            a recent graduate, or looking for your first opportunity.
+            The purpose of Internships24 is to provide assistance to young South Africans across all levels of their academic and professional career development. 
+            Our platform provides both guidance and information to support you in discovering your options regardless of whether you are a student, a recent graduate or seeking your first opportunity.
           </p>
         </div>
 

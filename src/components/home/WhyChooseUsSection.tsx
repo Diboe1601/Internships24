@@ -5,19 +5,19 @@ const reasons = [
     icon: MapPin,
     title: "South Africa Focused",
     description:
-      "South African students, recent graduates, and job seekers can benefit from all of the possibilities listed on Internships24. To make it simple for users to identify options that meet South African eligibility standards, we concentrate on local programs, businesses, SETAs, and government initiatives. ",
+      "South African students, recent graduates, and job seekers can benefit from all of the possibilities listed on Internships24. To make it simple for users to identify options that meet South African eligibility standards, we concentrate on local programs, businesses, SETAs, and government initiatives.",
   },
   {
     icon: DollarSign,
     title: "Completely Free",
     description:
-      "There are no hidden costs, memberships, or premium access when using Internships24. At any point during your job hunt, you can access resources, read guidelines, and view prospects without spending anything.",
+      "The website has absolutely NO membership fees, hidden costs or premium access to Internships24. You have free and unlimited access to career guidance advice, internship listing information, tips, resources, etc. at ANY TIME in your search for a new job.",
   },
   {
     icon: RefreshCw,
     title: "Regularly Updated",
     description:
-      "To keep information current, we check and update listings on a regular basis. Internships, learnerships, and graduate programs are regularly added, and opportunities that are out-of-date or expired are eliminated wherever feasible.",
+      "Internship postings, learnership postings, and graduate program postings are updated as often as possible. Internship postings, learnership postings, and graduate program postings are also removed from our site if they become outdated or expire.",
   },
   {
     icon: BookOpen,

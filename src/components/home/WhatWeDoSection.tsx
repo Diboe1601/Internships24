@@ -5,13 +5,13 @@ const features = [
     icon: Search,
     title: "Curated Opportunities",
     description:
-      "We carefully research, assess, and compile bursaries, learnerships, internships, and graduate programs from reputable public sources in South Africa. Our goal is to make it unnecessary for students and job seekers to look through many platforms in search of real opportunities.",
+      "We consider every detail to help lay the foundation for your future, providing you with all the pertinent information needed to find bursaries and simplify your search. Our wish is to make students and job seekers not look through the internet sites for real opportunities.",
   },
   {
     icon: FileText,
     title: "Career Guidance",
     description:
-      "Our lessons and educational materials help you make informed professional decisions, improve your CV and cover letter, prepare for interviews, and comprehend application criteria. Students and recent graduates at different stages of their professional growth are supposed to find the information useful.",
+      "Our tutorials and templates will teach you how to make the best impression, with tips on writing your CV and cover letter, advice for successfully nailing job interviews, and everything you need to know about applying for job. The information is intended for students and recent graduates at various stages of their professional development.",
   },
   {
     icon: Shield,
@@ -39,8 +39,8 @@ export function WhatWeDoSection() {
             Your Gateway to Career Opportunities
           </h2>
           <p className="text-muted-foreground text-lg">
-            Internships24 is an impartial information site that helps South African youth locate career opportunities, such as bursaries, learnerships, internships, and graduate programs. 
-            We don't act as an employer or recruiting agency; instead, we provide links and instructions to help people apply independently through the proper procedures.
+            Internships24 is a completely independent information web portal for anybody seeking South African internships, bursaries, learnerships, and other vocational opportunities. 
+            We are not an employer and do not hire or employ people for any reason, so we don’t act as recruiters or employers.
           </p>
         </div>
 
