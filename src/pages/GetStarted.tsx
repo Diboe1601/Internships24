@@ -17,22 +17,22 @@ const steps = [
   {
     icon: Search,
     title: "Browse Opportunities",
-    description: "Start by exploring our carefully curated listings of internships, learnerships, graduate programmes, and bursaries available across South Africa. Use categories and filters to narrow down opportunities that align with your field of study, qualifications, and career interests. New opportunities are added regularly, so checking back often is recommended.",
+    description: "Look around at the handpicked internships, learnerships, graduate roles, and bursaries waiting in South Africa. Since each one fits different studies or goals, sorting by category helps spot what matches you. While fresh options pop up all the time, staying updated means dropping in now and then. Because things change fast, returning frequently keeps you in step.",
   },
   {
     icon: FileText,
     title: "Read the Details Carefully",
-    description: "Open each opportunity to view the full description, including minimum requirements, age limits (if any), closing dates, and application instructions. Take time to read everything thoroughly to ensure you meet the eligibility criteria before applying. This helps you avoid wasting time on applications that may not be suitable.",
+    description: "Start by clicking into every opening to see complete details - like required qualifications, age rules if they apply, deadlines, plus how to submit your response. Reading all parts carefully makes a difference because it shows whether you actually qualify. That way, energy goes only toward roles matching your situation.",
   },
   {
     icon: Send,
     title: "Apply Directly to the Source",
-    description: "When you are ready, follow the provided application link to the official company, organisation, or government website. Applications should always be submitted directly to the employer or programme provider. Internships24 never asks for payment and does not collect applications on your behalf.",
+    description: "Ready? Tap the link to reach the real site - company, group, or public office. Send everything straight to the hiring team or course admin every single time. Not a penny requested by Internships24 ever. They pass no forms along for you.",
   },
   {
     icon: CheckCircle2,
     title: "Track & Follow Up",
-    description: "Keep a simple record of where and when you have applied, including closing dates and reference numbers if provided. If you do not receive feedback within the expected timeframe, it is acceptable to follow up professionally using the contact details supplied in the advert.",
+    description: "A quick note helps track each application - date, place, deadline, and any ID number given. Should silence stretch past the advertised response window, reaching out by their listed method fits standard practice.",
   },
 ];
 
@@ -40,26 +40,26 @@ const tips = [
   {
     icon: Lightbulb,
     title: "Tailor Your CV",
-    description: "Avoid sending the same CV to every opportunity. Instead, adjust your CV to highlight the skills, subjects, and experiences that are most relevant to each role. Even small changes can significantly improve your chances of being shortlisted.",
+    description: "A single version of your CV rarely fits all jobs. Tailor it carefully, focusing on what matters for each position. Highlight specific abilities and background details that match the job. Shift emphasis based on where you apply. Tiny tweaks sometimes make a big difference. Standing out often comes down to relevance.",
   },
   {
     icon: Clock,
     title: "Apply Early",
-    description: "Do not wait until the closing date to submit your application. Many employers review applications as they are received and may stop the process once suitable candidates are found. Applying early also gives you time to correct mistakes if needed.",
+    description: "Waiting too long could mean missing out entirely. Some hiring managers start screening right after getting resumes, filling spots before the deadline hits. Spotting an error? You might not get a second chance to fix it later. Early submission buys room to adjust.",
   },
   {
     icon: Shield,
     title: "Verify Opportunities",
-    description: "Always double-check opportunity details by visiting the official company or organisation website. Be cautious of adverts that lack contact information, have unclear requirements, or pressure you to act urgently. Legitimate opportunities are transparent and professional.",
+    description: "Watch out when offers skip basic info like email or phone number. Jumping on chances too fast might lead to trouble - slow down. Real openings show clear duties plus honest expectations upfront. Start safe: head straight to the group’s real site before believing anything else.",
   },
 ];
 
 const scamWarnings = [
-  "Never pay money to apply for a job, internship, or learnership",
-  "Be cautious of guaranteed job offers without interviews or assessments",
-  "Confirm company details using official websites and verified contact information",
-  "Do not share banking details, passwords, or ID documents upfront",
-  "Report any suspicious listings or messages to us immediately",
+  "Money should never leave your pocket when applying for work, training, or learning roles. A request for payment is a red flag every single time. Legitimate opportunities do not ask applicants for cash upfront. If someone demands money just to submit an application, walk away. Real employers cover their own hiring costs, always.",
+  "Watch out for promises of jobs you get just like that - no talk, no test. Sometimes they’re too good to be real. A real chance usually asks questions first. Jumping straight in might mean trouble ahead. Quiet red flags pop up when effort isn’t needed.",
+  "Start by checking the business name on its main webpage. Look up phone numbers listed in trusted directories. Match addresses through government records online. Go straight to email contacts shown on secure pages. Always cross-check data found on third-party sites.",
+  "Sending your bank info too soon? That opens doors to trouble. Hold back on passwords - they’re keys you shouldn’t hand out early. Identity papers stay private until absolutely necessary.",
+  "If something feels off about a listing or message, let us know right away.",
 ];
 
 const GetStarted = () => {
@@ -73,12 +73,15 @@ const GetStarted = () => {
               How to Use Internships24
             </h1>
             <p className="text-lg text-primary-foreground/80 leading-relaxed">
-              This page walks you through exactly how to use Internships24 to find and apply
-              for legitimate career opportunities in South Africa.
+              Here’s how to get started with Internships24 when looking for real job openings across South Africa. 
+              Because every step matters, the process breaks down clearly once you begin exploring available roles. 
+              Since details count, each section guides you without confusion toward submitting proper applications. 
+              With care given to accuracy, users see only verified positions listed on the site. When timing aligns, applicants gain access to new postings fast. Though options vary, all leads connect directly to active hiring efforts in different fields. 
+              Through consistent updates, the platform stays current with what local employers seek.
               <br /><br />
-              Whether you are a student, recent graduate, or unemployed job seeker, these
-              steps will help you navigate the application process with confidence and avoid
-              common mistakes.
+              A fresh start can feel tricky when facing job apps alone. Yet each step forward builds clearer paths for students just beginning. 
+              Recent grads might find their rhythm by skipping typical errors others repeat. 
+              Anyone without work now gains ground by moving carefully through the process. Confidence grows quietly when actions line up right.
             </p>
           </div>
         </div>
@@ -95,8 +98,10 @@ const GetStarted = () => {
               Four Simple Steps to Find Your Opportunity
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Finding the right opportunity does not have to be complicated. Follow these
-              four steps to move from browsing to applying in a clear and organised way.
+              Finding your next chance can feel simple instead of overwhelming. 
+              Move ahead by doing each part one at a time without rushing. 
+              Start with looking around, then narrow what you see step by step. Stay steady through each phase so nothing feels out of place. 
+              Finish by taking action when it makes sense naturally.
             </p>
           </div>
 
@@ -136,8 +141,7 @@ const GetStarted = () => {
               Tips for Successful Applications
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Small improvements in how you apply can make a big difference. Use the tips
-              below to increase your chances of success.
+              A little better each time you try might just change everything. Try these ideas to help things go your way
             </p>
           </div>
 
@@ -192,12 +196,11 @@ const GetStarted = () => {
               </ul>
 
               <p className="mt-6 text-sm text-muted-foreground">
-                If you come across a suspicious opportunity or believe you may have been
-                targeted by a scam, please{" "}
+                Got a feeling something’s off about a job offer?, please{" "}
                 <Link to="/contact" className="text-accent hover:underline">
                   contact us
                 </Link>{" "}
-                immediately. Your report helps us protect other job seekers.
+                immediately. Every tip sharpens our ability to shield others on the hunt.
               </p>
             </div>
           </div>
@@ -209,12 +212,10 @@ const GetStarted = () => {
         <div className="container-main">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-              Ready to Find Your Opportunity?
+            Ready to Find Your Opportunity?
             </h2>
             <p className="text-lg text-primary-foreground/80 leading-relaxed mb-8">
-              Start exploring hundreds of verified internships, learnerships, and graduate
-              opportunities available across South Africa — all in one place and completely
-              free to access.
+            Find plenty of real internships, training programs, and jobs for graduates around South Africa right here - all easy to reach at no cost. One spot holds it all.
             </p>
             <Button variant="hero" size="xl" asChild>
               <Link to="/blog">
