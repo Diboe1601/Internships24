@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    description: "Send us an email and we'll respond as soon as possible.",
+    description: "Drop a message in our inbox - reply time is quick. Soon after, you’ll hear back. ",
     value: "internships24.official@gmail.com",
     href: "mailto:internships24.official@gmail.com",
   },
@@ -32,7 +32,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: "Response Time",
-    description: "We aim to respond to all enquiries within:",
+    description: "One day you will hear back from us. Every question gets looked at, usually fast. Replies come when they’re ready, not a moment sooner. Each message matters just as much as the next. Waiting time? Not long, that is certain",
     value: "1-2 Business Days",
   },
 ];
@@ -125,22 +125,17 @@ const Contact = () => {
               Contact Us
             </h1>
             <p className="text-lg text-primary-foreground/80">
-                Internships24 is a South African career information platform created to support
-                students, graduates, TVET learners, and unemployed youth by providing access to
-                verified internships, learnerships, graduate programmes, bursaries, and career
-                guidance resources.
+              Not just another job site, Internships24 helps young people across South Africa find real work opportunities. From students to those finishing trade studies, it opens doors through trusted listings. Opportunities show up in many forms - internships included, also learnerships. Graduate paths appear here too, alongside financial aid options called bursaries. Careers take shape when guidance meets chance, that is where this platform steps in. It connects dots without flash, simply listing what matters most. Verified posts keep things safe, avoiding false leads. 
+              Youth who are out of work get a place to begin again. No filters needed, everything sits clear and within reach. Help arrives quietly, built into how the system works.
 <br /><br />
-                If you have questions about our content, need clarification about an opportunity,
-                or would like to report outdated or incorrect information, you are welcome to
-                contact us using the form below. We value transparency, accuracy, and community
-                feedback, as it helps us improve the quality of information we share.
+              Questions on what you’ve read? Need a point explained? Spot something off or out of date? Get in touch through the box down there. 
+              Our pages stay sharp because people speak up. Your notes shape better updates, every time.
 <br /><br />
-                Please note that Internships24 does not recruit, hire, or place candidates.
-                All applications are submitted directly to the official employer, institution,
-                or organisation listed in each opportunity.
+              Keep in mind, Internships24 isn’t involved in hiring or placing applicants. 
+              Every application goes straight to the actual employer shown in the listing. 
 
-               We'd love to hear from you. Get in touch 
-              and we&apos;ll respond as soon as possible.
+              Hearing from you matters. Reach out 
+              and a reply will come when we can.
             </p>
           </div>
         </div>
@@ -209,7 +204,7 @@ const Contact = () => {
                         <Input
                           id="name"
                           name="name"
-                          placeholder="Sello Mpho"
+                          placeholder="Name Surname"
                           value={formData.name}
                           onChange={handleChange}
                           className={errors.name ? "border-destructive" : ""}
@@ -224,7 +219,7 @@ const Contact = () => {
                           id="email"
                           name="email"
                           type="email"
-                          placeholder="sello@example.com"
+                          placeholder="email@example.com"
                           value={formData.email}
                           onChange={handleChange}
                           className={errors.email ? "border-destructive" : ""}
