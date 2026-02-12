@@ -6,25 +6,25 @@ const values = [
     icon: Target,
     title: "Mission-Driven",
     description:
-      "Everything we do is focused on helping South African youth access real, life-changing career opportunities.",
+      "Life shifts happen when young people in South Africa find work that truly matters. Our efforts point one way - opening doors they can walk through. Not just jobs, but paths forward take shape through what we build. Real chances grow where support meets ambition. Each step ties back to creating something lasting for those ready to move.",
   },
   {
     icon: Eye,
     title: "Transparency",
     description:
-      "We believe in honesty, clarity, and trust. No misleading claims, no hidden costs, and no false promises.",
+      "Truth matters most to us. Clear talk comes before flashy words. Hidden fees do not exist here. Promises made are promises kept. Trust grows when there is nothing to hide.",
   },
   {
     icon: Users,
     title: "Community First",
     description:
-      "Built by South Africans for South Africans, with a deep understanding of local education and employment challenges.",
+      "Fresh from South Africa, shaped by those who live it. A clear view of what schools miss, how jobs slip away. Made here, for here - no borrowed ideas. Knowing classrooms. Feeling job hunts. Close to home truths.",
   },
   {
     icon: Heart,
     title: "Accessibility",
     description:
-      "We are committed to keeping career information free, simple, and accessible to everyone, regardless of background.",
+      "Focused on one thing only: making job details clear, open, always free. Background never matters. Everyone gets the same shot.",
   },
 ];
 
@@ -39,19 +39,14 @@ const About = () => {
         About Internships24
       </h1>
       <p className="text-lg text-primary-foreground/80 leading-relaxed">
-        Internships24 is a South African career information platform created to support
-        students, graduates, and unemployed youth who are trying to take their first
-        steps into the working world.
+        The goal of the South African career information website Internships24 is to assist recent graduates, students, 
+        and jobless young people attempting to make their first forays into the workforce.
         <br /><br />
-        We understand how overwhelming the job market can be — especially when you are
-        searching for internships, learnerships, or entry-level opportunities with little
-        or no work experience. That is why Internships24 exists: to make career information
-        easier to access, easier to understand, and easier to trust.
+        We know how daunting the job market can be, particularly if you're looking for entry-level positions with little to no work experience, learnerships, or internships. 
+        Internships24 exists to make career information more accessible, comprehensible, and trustworthy.
         <br /><br />
-        Our platform brings together verified internships, learnerships, graduate programmes,
-        bursaries, and skills development opportunities from reputable organisations across
-        South Africa, all in one place. We focus on clarity, accuracy, and regular updates
-        so that users can spend less time searching and more time applying with confidence.
+        Verified learnerships, graduate programs, bursaries, internships, and opportunities for skill development from respectable companies throughout South Africa are all gathered in one location by our platform. 
+        In order to allow users to spend more time applying with confidence and less time searching, we prioritize accuracy, clarity, and frequent updates.
       </p>
     </div>
   </div>
@@ -66,28 +61,27 @@ const About = () => {
               Our Story
             </span>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why We Started Internships24
+              Why We Began Internships24
             </h2>
             <div className="prose prose-lg text-muted-foreground space-y-4">
               <p>
-                South Africa faces one of the highest youth unemployment rates in the world.
-                Thousands of capable graduates and students struggle to secure their first
-                opportunity due to limited access to information, experience requirements,
-                and fragmented job listings.
+                Every day, young people across South Africa search without success for work. 
+                Not lack of skill but missing connections blocks many fresh graduates. 
+                Openings stay hidden behind scattered websites instead of clear paths forward. 
+                Some hold degrees yet face doors shut by demands they cannot meet alone.
               </p>
               <p>
-                Internships24 was created to solve this problem by bringing opportunities into
-                one trusted, easy-to-navigate platform. Instead of searching across dozens of
-                websites and social media pages, users can find relevant opportunities in one place.
+                One reason Internships24 exists is to fix how hard it can be to locate good internships. 
+                Rather than jumping between countless sites and scrolling endlessly through feeds, people land what they need right here. 
+                A single spot now holds what used to scatter everywhere online.
               </p>
               <p>
-                We source internships, learnerships, graduate programmes, and bursaries from
-                reputable companies, SETAs, institutions, and public listings, ensuring that
-                our content is accurate, verified, and regularly updated.
+                From trusted firms, training authorities, schools, and official notices we pull together internships, learning roles, grad schemes, plus financial aid options. 
+                Every detail gets checked, kept current, confirmed correct through ongoing review.
               </p>
               <p>
-                Our goal is not just to list opportunities, but to empower young South Africans
-                with the knowledge and confidence needed to take meaningful steps toward employment.
+                What matters here isn’t simply sharing options. 
+                It’s about building real understanding in young people across South Africa, so they can move forward into jobs with clarity and belief in themselves.
               </p>
             </div>
           </div>
@@ -103,9 +97,10 @@ const About = () => {
                 Our Mission
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                To provide free, reliable, and up-to-date career information that helps South
-                African students and graduates access internships, learnerships, and entry-level
-                opportunities, enabling them to build sustainable careers.
+                Every chance should count when starting out. Free info stays fresh here for SA students hunting roles after school. 
+                Reliable details open paths into real jobs through internships, learnerships, or first steps at work. 
+                Building a future begins with clear options shown plainly. 
+                What matters gets updated without cost so everyone can move forward.
               </p>
             </div>
             <div className="card-elevated p-8">
@@ -113,8 +108,8 @@ const About = () => {
                 Our Vision
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                A South Africa where every young person, regardless of background or location,
-                has equal access to career opportunities, skills development, and employment pathways.
+                A nation down south where youth everywhere grab chances to work, learn trades, or step into jobs - 
+                no matter their starting point or how remote the place they call home begins.
               </p>
             </div>
           </div>
@@ -163,9 +158,10 @@ const About = () => {
               Who Internships24 Is For
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Internships24 serves university students, TVET college students, recent graduates,
-              unemployed youth, and career starters looking for internships, learnerships,
-              graduate programmes, and skills development opportunities within South Africa.
+              Starting out? Internships24 supports those stepping into work life - whether still at university, attending a TVET college, fresh out of studies, without a job, or just beginning their path. 
+              Some explore internships. Others search for learnerships. 
+              A few aim for graduate roles. Many want to grow abilities locally. Opportunities live across South Africa. 
+              Each journey differs. So does how people find them.
             </p>
           </div>
         </div>
@@ -181,19 +177,26 @@ const About = () => {
             <div className="card-elevated p-8 text-left">
               <p className="text-muted-foreground leading-relaxed mb-4">
                 <strong className="text-foreground">
-                  Internships24 is an independent informational platform.
+                Started by chance, Internships24 shares details about opportunities. Not hiring anyone - just passing along info.
                 </strong>{" "}
-                We are not a recruitment agency and do not guarantee placements or employment.
-                All applications are submitted directly to the official organisations.
+                When you apply, your form goes straight to the company itself. 
+                No promises of jobs, because that choice isn’t ours to make. 
+                The real employers handle every step after submission. 
+                This site only connects people with openings they might like. 
+                Nothing more, nothing less. Each listing comes from official sources, not us. 
+                You deal directly with them, always. Help exists here, but outcomes depend on the organisation. 
+                Think of it as a doorway, not a promise. Access is free, control stays with the applicant. 
+                Every link leads outward, never inward. Truth matters most: we don’t place people anywhere. 
+                Decisions happen elsewhere, without our influence. That’s how it works. Always has been.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Access to Internships24 is completely free. We do not request payment, banking
-                details, or personal financial information from users.
+                Free entry into Internships24 comes without hidden steps. No need to hand over money, bank numbers, or anything tied to your finances. 
+                What you see costs nothing - no surprises hiding behind forms or sign-ups.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                To support platform operations, we may display advertisements or affiliate links.
-                Any sponsored content is clearly disclosed, and users are encouraged to verify
-                opportunities through official sources.
+                Now here's how things run behind the scenes - ads or partner links might show up to keep the platform going. 
+                When something’s sponsored, it gets a clear label right there. 
+                Always double-check any chance you see by heading straight to the main site.
               </p>
             </div>
           </div>
