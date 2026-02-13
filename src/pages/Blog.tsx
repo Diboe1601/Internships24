@@ -15,18 +15,16 @@ const Blog = () => {
               Career Resources & Opportunities
             </h1>
             <p className="text-lg text-primary-foreground/80 leading-relaxed">
-              Welcome to the Internships24 resource hub — a dedicated space where South African
-              students, graduates, and job seekers can access reliable career information in
-              one place.
+              Right here at Internships24, you’ll find a central spot built just for South Africans stepping into work life. 
+              Whether still studying, recently done with school, or searching for what comes next, this is where useful career details gather. One location. Clear answers. No confusion. 
+              Everything aimed at helping learners and new professionals move forward without guesswork.
               <br /><br />
-              Our articles cover internships, learnerships, graduate programmes, bursaries,
-              and entry-level opportunities, along with practical career guidance to help
-              you prepare, apply, and succeed. Whether you are still studying or actively
-              looking for work, our goal is to make your career journey clearer and less
-              stressful.
+              From tips on applications to listings for internships, we share what matters. Hunting a graduate role? We’ve got details that fit where you are. 
+              Even if classes keep you busy now, useful advice waits whenever you’re ready. Learnerships, bursaries - spot them early through our updates. Clarity comes from knowing next steps, not just hoping. Success often follows those who act with direction, not just effort. No jargon, no noise - just clear paths forward. Finding entry level roles feels easier when options appear in one place. 
+              Preparation changes outcomes more than luck does. Stress fades when choices become clearer.
               <br /><br />
-              All content is written with the South African job market in mind and is designed
-              to be easy to understand, relevant, and actionable.
+              Thinking about jobs in South Africa shapes every word here. Clarity comes first, so ideas stay clear. What matters fits local needs without extra noise. 
+              Ideas work in real situations because they connect to actual steps people can take.
             </p>
           </div>
         </div>
@@ -114,12 +112,11 @@ const Blog = () => {
               Stay Updated With New Opportunities
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              New internships, learnerships, and graduate programmes are published regularly.
-              We recommend checking this page often or bookmarking it so you never miss an
-              opportunity that could shape your future.
+              Every now and then, fresh openings appear - internships, training paths, roles for recent grads. 
+              Stay close to this spot online, visit again soon, maybe save it, just in case something big shows up tomorrow.
               <br /><br />
-              If you are unsure where to start or how to apply, we also provide guidance to
-              help you understand application requirements and improve your chances.
+              Starting feels tricky when directions seem unclear. Our support steps in right there. It walks beside you through each part of applying. 
+              Knowing what is needed becomes easier with this help. Chances go up when confusion fades away.
             </p>
             <Button variant="accent" size="lg" asChild>
               <Link to="/get-started">
