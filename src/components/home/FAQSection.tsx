@@ -8,7 +8,7 @@ import {
 const faqs = [
  {
   question: "Who can use Internships24?",
-  answer: "For South African students and job seekers at various phases of their academic and professional development, Internships24 was established. High school students, TVET college students, university students, recent graduates, and unemployed youth are among those actively seeking internships, learnerships, bursaries, graduate programs, and entry-level professional opportunities."
+  answer: "Internships24 came into being because young people across South Africa need support while moving through education and work. Some are still in high school, others attend TVET colleges or universities, many have just finished studying, a few haven’t found jobs yet - all searching for chances to learn and grow. Opportunities like internships, structured training, financial aid, early-career roles, and on-the-job experience matter deeply to them. Each step forward begins with access, clarity, direction."
 },
 {
   question: "Do I need formal qualifications to apply for internships?",
