@@ -18,27 +18,24 @@ const Terms = () => {
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Acceptance of Terms</h2>
                 <p className="text-muted-foreground">
-                  By accessing and using Internships24, you accept and agree to be bound by these Terms 
-                  and Conditions. If you do not agree to these terms, please do not use our website.
+                  You step into Internships24, you’re also stepping into these rules - no separate sign-up needed. Walk away if they don’t sit right with you.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Description of Service</h2>
                 <p className="text-muted-foreground">
-                  Internships24 is an informational website that provides resources about internships, 
-                  learnerships, graduate programmes, bursaries, and career guidance in South Africa. 
-                  We aggregate and share publicly available opportunities to help users in their job search.
+                  Starting strong, Internships24 shares details on internships across South Africa. It covers learnerships too - also graduate roles worth exploring. Bursary options appear here alongside helpful tips for building a path forward. 
+                  Information gets pulled from public sources, then posted clearly. The aim? Making searches easier without extra noise. Updates roll in regularly so visitors stay informed. 
+                  Every post links out exactly where it should. Opportunities show up as they become known. Help comes through access, nothing hidden. Clarity matters most throughout.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">No Employment Guarantee</h2>
                 <p className="text-muted-foreground">
-                  <strong className="text-foreground">Important:</strong> Internships24 is not a recruitment agency and does not 
-                  guarantee job placements or employment. We provide information to help you find 
-                  opportunities, but the application process and hiring decisions are entirely at the 
-                  discretion of the respective companies and organisations.
+                  <strong className="text-foreground">Important:</strong>  Internships24 isn’t a staffing firm. Getting hired? That depends on each company, not us. While we share details about openings, it's up to you to apply. Hiring choices belong solely to the employers involved. 
+                  Although our goal is support, actual results vary by organisation. Because every business runs its own selection, outcomes differ widely.
                 </p>
               </section>
 
@@ -49,7 +46,7 @@ const Terms = () => {
                   <li>Use the website for lawful purposes only</li>
                   <li>Verify opportunity details with official sources before applying</li>
                   <li>Not submit false or misleading information through our contact forms</li>
-                  <li>Not attempt to interfere with the proper functioning of the website</li>
+                  <li>Failing to mess with how the site works correctly</li>
                   <li>Not reproduce or distribute our content without permission</li>
                 </ul>
               </section>
@@ -57,54 +54,49 @@ const Terms = () => {
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Content Accuracy</h2>
                 <p className="text-muted-foreground">
-                  While we strive to provide accurate and up-to-date information, we cannot guarantee 
-                  the accuracy, completeness, or timeliness of all content. Opportunity details may 
-                  change without notice. Always verify information with the official sources before 
-                  making any decisions.
+                  Even when care is taken to share correct and current details, there’s no promise every piece will be fully accurate, complete, or fresh. 
+                  Changes can happen quietly, shifting how chances appear. Check directly with trusted authorities before moving forward on anything.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Intellectual Property</h2>
                 <p className="text-muted-foreground">
-                  All content on Internships24, including text, graphics, logos, and images, is the 
-                  property of Internships24 or its content suppliers and is protected by copyright laws. 
-                  Unauthorised use is prohibited.
+                  What you see on Internships24 - words, pictures, logos, visuals - belongs to Internships24 or those who provided them. 
+                  This stuff isn’t free for anyone to grab. Because it’s guarded under copyright rules. Using any piece without permission? Not allowed. Protection kicks in automatically. Even if there's no small print saying so. Whoever puts work here keeps control over how it spreads. 
+                  Taking parts for your own thing behind their back crosses a line. Respect stays required. Otherwise consequences follow.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Third-Party Links</h2>
                 <p className="text-muted-foreground">
-                  Our website may contain links to external websites. We are not responsible for the 
-                  content, privacy practices, or availability of these third-party sites. Accessing 
-                  external links is at your own risk.
+                  Links to outside sites might show up on our pages. Even though we include them, what's on those places isn't our doing. Their way of handling data stays theirs, not ours. 
+                  You go there knowing you're on your own. How well they work or stay online? That part is out of our hands too.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Limitation of Liability</h2>
                 <p className="text-muted-foreground">
-                  Internships24 shall not be liable for any direct, indirect, incidental, consequential, 
-                  or punitive damages arising from your use of our website or reliance on any information 
-                  provided herein.
+                  Should something go wrong while using the site, Internships24 won’t owe you anything. Problems tied to how you use the platform fall on you, not us. If details here lead you astray, we’re not responsible. 
+                  Even if things get bad - like time lost or stress - we aren’t held accountable. Punishment-level claims? Not our burden.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Changes to Terms</h2>
                 <p className="text-muted-foreground">
-                  We reserve the right to modify these Terms and Conditions at any time. Changes will 
-                  be effective immediately upon posting. Your continued use of the website constitutes 
-                  acceptance of the modified terms.
+                  Might change these rules whenever needed. Once they’re up, new versions start working straight away. 
+                  Staying on the site means agreeing to what’s updated. New details stand without extra notice.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Contact Us</h2>
                 <p className="text-muted-foreground">
-                  If you have any questions about these Terms and Conditions, please{" "}
-                  <Link to="/contact" className="text-accent hover:underline">contact us</Link>.
+                  Got a question about these terms?, please{" "}
+                  <Link to="/contact" className="text-accent hover:underline">contact us</Link> Our team reads every message. Help is just an email away. Curious about something? We’re here to clarify. No query too small. Just send us a note and we’ll respond quickly.
                 </p>
               </section>
             </div>

@@ -18,10 +18,8 @@ const Disclaimer = () => {
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">General Information</h2>
                 <p className="text-muted-foreground">
-                  The information provided on Internships24 is for general informational purposes only. 
-                  All information on the site is provided in good faith; however, we make no representation 
-                  or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, 
-                  reliability, availability, or completeness of any information on the site.
+                  What you find at Internships24 is meant just to inform. 
+                  Though shared kindly, nothing here promises how correct, suitable, truthful, dependable, timely, present, or whole that info might be.
                 </p>
               </section>
 
@@ -30,9 +28,8 @@ const Disclaimer = () => {
                 <div className="card-elevated p-6 border-2 border-accent/20 bg-accent/5">
                   <p className="text-foreground font-medium mb-2">Important Notice:</p>
                   <p className="text-muted-foreground">
-                    Internships24 is an <strong className="text-foreground">independent informational website</strong>. 
-                    We are <strong className="text-foreground">not a recruitment agency</strong> and do not guarantee job 
-                    placements or employment. We do not process applications or make hiring decisions.
+                     Behind every listing on <strong className="text-foreground">Internships24</strong>stands just facts - no promises. 
+                     Not a <strong className="text-foreground">Recruiter,</strong>  never claiming jobs will follow. Decisions about hires? Never touched by us. Sending your form somewhere else? That part isn’t handled here.
                   </p>
                 </div>
               </section>
@@ -40,75 +37,67 @@ const Disclaimer = () => {
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">No Payment Required</h2>
                 <p className="text-muted-foreground">
-                  Legitimate employers and training providers do not charge candidates for job applications 
-                  or placements. <strong className="text-foreground">Never pay money</strong> for any opportunity you find through 
-                  our website or any other platform. If a listing requires payment, it is likely a scam.
+                  Most real jobs won’t ask you to hand over cash just to apply. When looking at roles online, especially here, expect zero fees. A request for money? That usually means trouble ahead.
+                  <strong className="text-foreground">Training programs that are honest never demand upfront payments.</strong> Spotting a fee could mean someone is pretending to offer work. Stay clear of anything asking for funds - real chances don’t cost entry. 
+                  Chances listed elsewhere follow the same rule: if they want payment, walk away.
+
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Government Affiliation</h2>
                 <p className="text-muted-foreground">
-                  Internships24 is <strong className="text-foreground">not affiliated with the South African government</strong> or 
-                  any government department unless explicitly stated. Government opportunities shared on our 
-                  platform are sourced from publicly available information and should be verified through 
-                  official government channels.
+                  Most chances listed come from public sources, so always double-check them yourself. This site has<strong className="text-foreground">no ties to the South African governmen</strong> unless clearly noted somewhere else. 
+                  What you see online might change, which means relying only on official pages makes sense. Details shared here are pulled straight from open records, nothing more.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Third-Party Listings</h2>
                 <p className="text-muted-foreground">
-                  We share opportunities from various sources, including company websites, job boards, and 
-                  public announcements. While we make efforts to verify the legitimacy of listings, we 
-                  cannot guarantee the authenticity of every opportunity. Always conduct your own due 
-                  diligence before applying.
+                  From time to time, you’ll find openings pulled together from places like official company pages, online job platforms, or government notices. 
+                  Even though checks are made to see if these leads are real, there’s no promise that each one is fully trustworthy. Take a moment to look into things yourself prior to sending any application.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Advertisements</h2>
                 <p className="text-muted-foreground">
-                  This website may display advertisements and affiliate links. These are provided by 
-                  third-party advertising networks, including Google AdSense. The appearance of 
-                  advertisements does not constitute an endorsement of the advertised products or services.
+                  Advertisements might show up here. They come through outside ad systems, such as Google AdSense. You’ll see them because automated networks place them there. 
+                  Spotting a product on this site doesn’t mean it's recommended. What appears is separate from the views held here.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">External Links</h2>
                 <p className="text-muted-foreground">
-                  Our website may contain links to external sites that are not operated by us. We have no 
-                  control over the content, privacy policies, or practices of third-party sites and assume 
-                  no responsibility for them.
+                  Links to outside websites might show up on our pages - these places aren’t run by us. What happens there stays there; we can’t influence their rules, how they handle data, or what they post. 
+                  Any choices those sites make fall on them, not us. Our name isn’t tied to their actions, ever.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">User Responsibility</h2>
                 <p className="text-muted-foreground">
-                  Users are responsible for verifying the accuracy and legitimacy of any opportunity before 
-                  applying. This includes checking company credentials, reading official announcements, and 
-                  following safe application practices.
+                  Beware of details when looking at a new chance. A smart move means confirming who is behind it, using real sources to check facts. 
+                  Look up what the organization says online, spot trusted updates on their page. Always take care sending personal info out there - go slow, stay sharp.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Limitation of Liability</h2>
                 <p className="text-muted-foreground">
-                  Under no circumstance shall Internships24 be liable for any loss, damage, or harm arising 
-                  from the use of our website or reliance on any information provided. This includes, but 
-                  is not limited to, losses resulting from applying for opportunities, interactions with 
-                  third parties, or decisions made based on our content.
+                  No matter what happens, Internships24 won’t be held responsible if you lose something, get harmed, or face problems using our site. 
+                  That covers trouble from applying to roles, dealing with outside people, or choices shaped by what we publish. 
+                  Though clear warnings are posted, outcomes depend on individual situations - none tied directly to us.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Report Concerns</h2>
                 <p className="text-muted-foreground">
-                  If you believe any information on our website is inaccurate, outdated, or potentially 
-                  fraudulent, please <Link to="/contact" className="text-accent hover:underline">contact us</Link>{" "}
-                  immediately so we can investigate and take appropriate action.
+                  Should something on our site seem off, please <Link to="/contact" className="text-accent hover:underline">Contact us</Link>{" "}
+                  We’ll look into it once notified. Mistakes happen, yet fixing them matters just as much. Getting a heads up helps everything move faster. Clarity keeps things working smoothly behind the scenes too.
                 </p>
               </section>
             </div>

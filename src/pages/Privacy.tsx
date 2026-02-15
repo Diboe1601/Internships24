@@ -18,9 +18,9 @@ const Privacy = () => {
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Introduction</h2>
                 <p className="text-muted-foreground">
-                  At Internships24, we are committed to protecting your privacy and ensuring the security 
-                  of your personal information. This Privacy Policy explains how we collect, use, and 
-                  safeguard your data when you visit our website.
+                  What happens to your details on Internships24? The way we handle them is built around safety and respect. When you arrive at our site, actions behind the scenes start - quiet steps that track nothing beyond what's needed. 
+                  Each piece stays locked down unless a real reason appears to move it elsewhere. 
+                  Your trust matters most here, so choices about data aren’t left hanging - they’re clear, limited, direct.
                 </p>
               </section>
 
@@ -38,33 +38,27 @@ const Privacy = () => {
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">How We Use Your Information</h2>
                 <p className="text-muted-foreground mb-4">We use the collected information to:</p>
-                <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-                  <li>Provide and maintain our website services</li>
-                  <li>Respond to your enquiries and provide support</li>
-                  <li>Improve our website and user experience</li>
-                  <li>Analyse website traffic and usage patterns</li>
-                  <li>Display relevant advertisements through Google AdSense</li>
-                </ul>
+                
+                <p> 
+                  Answer questions you ask. Support comes after we listen. When needed, help follows quickly. Replies arrive without delay. Assistance shows up when called. Your contact leads to a response. Every request gets attention
+                  Improve our website and user experience, Analyse website traffic and usage patterns, show ads with google adsense.
+                </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Third-Party Services</h2>
                 <p className="text-muted-foreground">
-                  Our website uses Google AdSense to display advertisements. Google may use cookies to 
-                  serve ads based on your prior visits to our website or other websites. You can opt out 
-                  of personalised advertising by visiting{" "}
+                  Ads appear on our site through a service called {" "}
                   <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
                     Google Ads Settings
-                  </a>.
+                  </a>. Because of past visits - here or elsewhere - you might see tailored ads served using small data files known as cookies. Personalised ad options let you step back via the Google Ads Settings page if that feels better.
                 </p>
               </section>
 
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Data Security</h2>
                 <p className="text-muted-foreground">
-                  We implement appropriate security measures to protect your personal information. 
-                  However, no method of transmission over the Internet is 100% secure, and we cannot 
-                  guarantee absolute security.
+                  Still, every online transfer carries some risk, even when precautions are taken. Our systems use safeguards designed to keep your data safe.
                 </p>
               </section>
 
@@ -82,8 +76,8 @@ const Privacy = () => {
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Contact Us</h2>
                 <p className="text-muted-foreground">
-                  If you have any questions about this Privacy Policy, please{" "}
-                  <Link to="/contact" className="text-accent hover:underline">contact us</Link>.
+                  Got a question about our Privacy Policy? , please{" "}
+                  <Link to="/contact" className="text-accent hover:underline">contact us</Link> We’re here to help clarify anything on your mind. Questions pop up - just send them our way. Curious about something specific? Let us know. Whatever comes up, feel free to get in touch. Need clarity? That’s what we’re here for.
                 </p>
               </section>
             </div>
