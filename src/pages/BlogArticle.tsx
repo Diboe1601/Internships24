@@ -98,17 +98,18 @@ const BlogArticle = () => {
       key: "visa",
       details: (
         <div className="space-y-4">
-          <p><strong>About:</strong> Visa South Africa internships are typically corporate internships (often in tech, business, and finance). Official 2026 details may not be fully published yet.</p>
+          <p><strong>About:</strong> Visa South Africa, intern roles usually sit within company settings - think tech, money matters, or office operations. The full picture for 2026 might still be missing some pieces.</p>
           <div>
             <p className="font-semibold">Expected Requirements (typical):</p>
             <ul className="list-disc ml-5">
-              <li>Completed or final-year degree in a relevant field (e.g., IT, Finance, Marketing, Business).</li>
-              <li>Strong communication and analytical skills.</li>
-              <li>Eligible to work in South Africa.</li>
-              <li>CV, cover letter, transcripts usually required.</li>
+              <li>Last year of study counts too, if you are working toward a degree in something like computer tech, money matters, selling stuff, or company operations. </li>
+              <li>Sitting quietly helps you hear what matters. A clear head spots patterns others miss.</li>
+              <li>Has legal permission to work within South Africa.</li>
+              <li>A resume often shows up alongside a cover note plus academic records. Usually these documents get requested together.
+            </li>
             </ul>
           </div>
-          <p className="text-muted-foreground">Note: Once official Visa postings open, they'll list specific qualification matches and duties.</p>
+          <p className="text-muted-foreground">Note: When Visa posts jobs officially, exact qualifications and tasks will show up there instead. Specifics come later through their proper channels rather than here. Details like role fits and responsibilities appear only when openings go live. What you need matches what they publish at launch time. Official listings carry the real requirements once available.</p>
         </div>
       ),
     },
@@ -117,30 +118,32 @@ const BlogArticle = () => {
       key: "sa-govt",
       details: (
         <div className="space-y-4">
-          <p><strong>About:</strong> The South African Government runs internship and in-service training programmes across many departments (Health, Home Affairs, Public Works, Police, Municipalities, etc.).</p>
+          <p><strong>About:</strong> Government offices in South Africa, like Health or Home Affairs, offer internships and training while you work. These chances pop up in places such as Public Works, the Police, and local councils too. Each department handles its own version of these learning paths. Some start fresh each season, others keep going year-round. You might find one near where you live. Training happens right inside the job setting across multiple services.
+</p>
           <div>
             <p className="font-semibold">General Requirements:</p>
             <ul className="list-disc ml-5">
               <li>South African citizen, unemployed.</li>
-              <li>At least a Degree or Diploma (for internships).</li>
-              <li>Z83 application form + CV + certified documents.</li>
-              <li>Age usually 18–35 (varies by department).</li>
+              <li>A diploma or degree, minimum requirement for internship roles.</li>
+              <li>Start off by filling out the Z83 form. Then attach your updated resume.</li>
+              <li>Include copies of official papers, stamped by a commissioner.</li>
+              <li>Most folks fall between eighteen and thirty five, though some teams adjust slightly depending on role.</li>
             </ul>
           </div>
           <div>
             <p className="font-semibold">Common Fields Available:</p>
             <ul className="list-disc ml-5">
-              <li>HR, Finance & Supply Chain</li>
+              <li>Human Resources, Finance and Supply Chain </li>
               <li>ICT/Admin</li>
-              <li>Public Management & Policy</li>
+              <li>Public Management and Policy</li>
               <li>Engineering & Technical (some SOEs like Eskom, SANRAL)</li>
-              <li>Environmental & Social Sciences</li>
+              <li>Environmental and Social Sciences</li>
               <li>Municipal services (water, sanitation, planning)</li>
             </ul>
           </div>
           <div>
             <p className="font-semibold">Benefits:</p>
-            <p>Structured workplace exposure, usually with a monthly stipend.</p>
+            <p>A set routine on the job, most often including a fixed payment each month.</p>
           </div>
         </div>
       ),
@@ -150,26 +153,26 @@ const BlogArticle = () => {
       key: "mercedes-benz",
       details: (
         <div className="space-y-4">
-          <p><strong>About:</strong> Mercedes-Benz South Africa's Graduate Development Programme (GDP) 2026 offers practical experience at a world-class automotive company.</p>
+          <p><strong>About:</strong> Mercedes-Benz South Africa brings graduates into real work at a top-tier car maker through its 2026 development path. While learning on site, participants gain hands-on skills within an established global brand known for engineering. Instead of just theory, the programme focuses on doing, placing newcomers directly where vehicles come to life. Through guided support, young professionals grow alongside seasoned teams shaping future mobility. Because every role connects to actual projects, trainees see how their efforts move forward with production.</p>
           <div>
             <p className="font-semibold">Requirements:</p>
             <ul className="list-disc ml-5">
               <li>South African citizen.</li>
-              <li>Completed a tertiary qualification (Diploma NQF 6 / Degree / Advanced Diploma NQF 7).</li>
-              <li>Minimum average 65% in your qualification.</li>
+              <li>Finished a higher education course - either a diploma at level six, a degree, or an advanced diploma ranked seven on the national framework.</li>
+              <li>Achieve at least a 65 percent on average across your academic program.</li>
               <li>Graduated within the past 3 years.</li>
-              <li>Include CV + certified Matric & tertiary certificates, ID & academic transcript.</li>
+              <li>Besides your resume, toss in a verified copy of your high school diploma along with any higher education qualifications. Your national ID should be part of the pile too. Tertiary level transcripts need to show up, officially stamped. Leave nothing out - every document matters just as much as the next.</li>
             </ul>
           </div>
           <div>
             <p className="font-semibold">Eligible Fields:</p>
             <ul className="list-disc ml-5">
-              <li>IT & Computer Sciences</li>
-              <li>Accounting & Financial Management</li>
+              <li>Information Technology and Computer Science</li>
+              <li>Accounting and Financial Management</li>
               <li>Business/Marketing/Project Management</li>
-              <li>Logistics & Supply Chain</li>
-              <li>Data Science & Analytics</li>
-              <li>Social Sciences & Organisational Studies</li>
+              <li>Logistics and Supply Chain</li>
+              <li>Data Science and Analytics</li>
+              <li>Social Sciences and Organisational Studies</li>
               <li>Law (LLB with at least 1 year post-admission experience)</li>
             </ul>
           </div>
@@ -185,13 +188,13 @@ const BlogArticle = () => {
       key: "pernod-ricard",
       details: (
         <div className="space-y-4">
-          <p><strong>About:</strong> Pernod Ricard South Africa offers a 12-month YES Graduate Internship Programme focused on business functions.</p>
+          <p><strong>About:</strong> Pernod Ricard South Africa runs a year-long YES internship for grads. This one zeroes in on how businesses operate. Each role ties into real work, not just theory. Think twelve months of learning by doing. The programme kicks off once a year. It targets recent graduates wanting hands-on experience. Business functions form the core - nothing vague, nothing stretched. Real tasks. Real exposure. A chance to grow where decisions matter.</p>
           <div>
             <p className="font-semibold">Requirements:</p>
             <ul className="list-disc ml-5">
               <li>Completed Bachelor's degree or higher in relevant area.</li>
-              <li>Strong communication (verbal & written).</li>
-              <li>Good Microsoft Office skills (Excel, Word, PowerPoint).</li>
+              <li>Words flow clear when speaking, plus thoughts land just right on paper. </li>
+              <li>Confident using Excel, also comfortable with Word. Slides made in PowerPoint come together without trouble. </li>
               <li>Positive, entrepreneurial attitude.</li>
             </ul>
           </div>
@@ -223,14 +226,14 @@ const BlogArticle = () => {
             <p className="font-semibold">Requirements:</p>
             <ul className="list-disc ml-5">
               <li>National Senior Certificate (Matric) with at least Maths & Science OR an N2/N3/N4 Engineering qualification.</li>
-              <li>Commitment to complete assessments and workplace logbook requirements.</li>
+              <li>Sticking with every assessment until it's fully done. Workplace logbooks get filled out step by step, without skipping parts.</li>
             </ul>
           </div>
           <div>
             <p className="font-semibold">Skills & Competencies:</p>
             <ul className="list-disc ml-5">
-              <li>Basic machinery and quality monitoring.</li>
-              <li>Teamwork and safety awareness.</li>
+              <li>Fine tools spinning under steady eyes. Machines hum while hands check each part's shape. </li>
+              <li>Working together means watching out for one another. When people pay attention, accidents happen less often. </li>
               <li>Communication and problem-solving focus.</li>
             </ul>
           </div>
@@ -250,14 +253,14 @@ const BlogArticle = () => {
             <p className="font-semibold">Duration & Pay:</p>
             <ul className="list-disc ml-5">
               <li>Full-time 24-month programme.</li>
-              <li>Approx R96 000 per year.</li>
+              <li>Close to R96 000 per year.</li>
             </ul>
           </div>
           <div>
             <p className="font-semibold">Requirements:</p>
             <ul className="list-disc ml-5">
-              <li>Civil Engineering NQF 6+ qualification (Asset Management) OR NQF 7 in Public Admin & Management (Research & Innovation).</li>
-              <li>CV, cover letter, ID, certified qualifications & transcripts.</li>
+              <li>A solid background in civil engineering at level six or higher helps, especially if it focuses on handling assets. Alternatively, a public administration degree at level seven works too - when tied to research and innovation.</li>
+              <li>A résumé sits beside a letter of introduction, an official identity document. Academic records appear next, along with proof they’re verified.</li>
               <li>Able to relocate to Pretoria.</li>
             </ul>
           </div>
