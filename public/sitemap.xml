@@ -276,7 +276,7 @@
 
   <!-- Privacy Policy Page -->
   <url>
-    <loc>https://www.internships24.co.za/privacy-policy</loc>
+    <loc>https://www.internships24.co.za/privacy</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -284,7 +284,7 @@
 
   <!-- Terms & Conditions Page -->
   <url>
-    <loc>https://www.internships24.co.za/terms-conditions</loc>
+    <loc>https://www.internships24.co.za/terms</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
