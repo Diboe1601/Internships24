@@ -1,301 +1,316 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Home Page -->
+  <!-- Static Pages (from direct routes) -->
   <url>
     <loc>https://www.internships24.co.za/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Blog Page -->
+  <url>
+    <loc>https://www.internships24.co.za/about</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/contact</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/get-started</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/privacy</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/terms</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/disclaimer</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Blog Pages -->
   <url>
     <loc>https://www.internships24.co.za/blog</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
- <url>
+  <!-- Blog Articles (Dynamic routes - you need to generate these from your data) -->
+  <url>
+    <loc>https://www.internships24.co.za/blog/tvet-college-learnership-opportunities</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/blog/how-to-apply-internships-south-africa</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/blog/avoid-internship-learnership-scams</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://www.internships24.co.za/blog/top-internships-graduates-south-africa-2026</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.internships24.co.za/internship/services-seta</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.internships24.co.za/internship/dept-tourism</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.internships24.co.za/internship/visa</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.internships24.co.za/internship/sa-govt</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.internships24.co.za/internship/mercedes-benz</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.internships24.co.za/internship/pernod-ricard</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.internships24.co.za/internship/unilever</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.internships24.co.za/internship/sanral</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-   <url>
     <loc>https://www.internships24.co.za/blog/interns-learnerships-pay-south-africa</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
-   <url>
+  <url>
     <loc>https://www.internships24.co.za/blog/internship-application-mistakes-get-you-rejected</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  
-   <url>
+
+  <url>
     <loc>https://www.internships24.co.za/blog/what-to-do-if-rejected-internships</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.internships24.co.za/blog/learnership-placement-timeline-how-long-to-get-placed</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.internships24.co.za/blog/apply-for-multiple-internships-at-once-rules-explained</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  
-   <url>
+
+  <url>
     <loc>https://www.internships24.co.za/blog/after-completing-internship-learnership-what-happens</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.internships24.co.za/blog/prepare-for-internship-learnership-interviews</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.internships24.co.za/blog/age-limits-internships-learnerships-south-africa</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.internships24.co.za/yes-programmes-explained-youth-employment-service</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+
   <url>
     <loc>https://www.internships24.co.za/blog/monthly-internship-learnership-application-calendar-2026-2027</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.internships24.co.za/blog/latest-learnerships-south-africa</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://www.internships24.co.za/internship/mict-seta</loc>
-    <lastmod>2025-12-30</lastmod>
+    <loc>https://www.internships24.co.za/yes-programmes-explained-youth-employment-service</loc>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.internships24.co.za/internship/merseta</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.internships24.co.za/internship/wrseta</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.internships24.co.za/internship/bankseta</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.internships24.co.za/internship/uif-lap</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.internships24.co.za/internship/dept-agriculture</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.internships24.co.za/internship/learnme</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.internships24.co.za/internship/yes-learnership</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.internships24.co.za/blog/difference-internships-learnerships-graduate-programmes</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.internships24.co.za/blog/how-to-apply-internships-south-africa</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+
   <url>
     <loc>https://www.internships24.co.za/blog/government-learnerships-unemployed-youth</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.internships24.co.za/blog/best-companies-graduate-programmes-south-africa</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.internships24.co.za/blog/avoid-internship-learnership-scams</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+
   <url>
     <loc>https://www.internships24.co.za/blog/paid-vs-unpaid-internships-south-africa</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.internships24.co.za/blog/tvet-college-learnership-opportunities</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+
   <url>
     <loc>https://www.internships24.co.za/blog/build-cv-internships-no-experience</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-
-  <!-- About Page -->
-  <url>
-    <loc>https://www.internships24.co.za/about</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Contact Page -->
+  <!-- Internship Detail Pages (Dynamic routes - from /internship/:key) -->
   <url>
-    <loc>https://www.internships24.co.za/contact</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.internships24.co.za/internship/services-seta</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Get Started Page -->
   <url>
-    <loc>https://www.internships24.co.za/get-started</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.internships24.co.za/internship/dept-tourism</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Privacy Policy Page -->
   <url>
-    <loc>https://www.internships24.co.za/privacy</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://www.internships24.co.za/internship/visa</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Terms & Conditions Page -->
   <url>
-    <loc>https://www.internships24.co.za/terms</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://www.internships24.co.za/internship/sa-govt</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Disclaimer Page -->
   <url>
-    <loc>https://www.internships24.co.za/disclaimer</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://www.internships24.co.za/internship/mercedes-benz</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/pernod-ricard</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/unilever</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/sanral</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/mict-seta</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/merseta</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/wrseta</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/bankseta</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/uif-lap</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/dept-agriculture</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/learnme</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.internships24.co.za/internship/yes-learnership</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
