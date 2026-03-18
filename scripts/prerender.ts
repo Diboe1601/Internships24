@@ -1,5 +1,5 @@
-// scripts/prerender.ts
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -59,17 +59,16 @@ const DIST_DIR = path.resolve(__dirname, "../dist");
 async function prerender() {
   console.log("🚀 Starting prerender...");
 
+  // Detect if running on Vercel/CI or locally
+  const isCI = process.env.CI || process.env.VERCEL;
+
   const browser = await puppeteer.launch({
+    args: chromium.args,
+    defaultViewport: chromium.defaultViewport,
+    executablePath: isCI
+      ? await chromium.executablePath()   // ✅ Uses bundled Chromium on Vercel
+      : undefined,                         // ✅ Uses local Chrome when developing
     headless: true,
-    args: [
-      "--no-sandbox",                      // ✅ Required for Vercel
-      "--disable-setuid-sandbox",          // ✅ Required for Vercel
-      "--disable-dev-shm-usage",           // ✅ Prevents memory issues
-      "--disable-gpu",                     // ✅ No GPU in CI
-      "--no-first-run",
-      "--no-zygote",
-      "--single-process",                  // ✅ Helps in restricted environments
-    ],
   });
 
   const page = await browser.newPage();
@@ -83,9 +82,10 @@ async function prerender() {
 
       const html = await page.content();
 
-      const routeDir = route === "/"
-        ? DIST_DIR
-        : path.join(DIST_DIR, ...route.split("/").filter(Boolean));
+      const routeDir =
+        route === "/"
+          ? DIST_DIR
+          : path.join(DIST_DIR, ...route.split("/").filter(Boolean));
 
       fs.mkdirSync(routeDir, { recursive: true });
       fs.writeFileSync(path.join(routeDir, "index.html"), html, "utf-8");
