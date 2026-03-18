@@ -15,8 +15,6 @@ const routes = [
   "/privacy",
   "/terms",
   "/disclaimer",
-
-  // Blog posts
   "/blog/how-to-apply-internships-south-africa",
   "/blog/tvet-college-learnership-opportunities",
   "/blog/avoid-internship-learnership-scams",
@@ -37,8 +35,6 @@ const routes = [
   "/blog/best-companies-graduate-programmes-south-africa",
   "/blog/paid-vs-unpaid-internships-south-africa",
   "/blog/build-cv-internships-no-experience",
-
-  // Internship pages
   "/internship/services-seta",
   "/internship/dept-tourism",
   "/internship/visa",
@@ -63,7 +59,19 @@ const DIST_DIR = path.resolve(__dirname, "../dist");
 async function prerender() {
   console.log("🚀 Starting prerender...");
 
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: [
+      "--no-sandbox",                      // ✅ Required for Vercel
+      "--disable-setuid-sandbox",          // ✅ Required for Vercel
+      "--disable-dev-shm-usage",           // ✅ Prevents memory issues
+      "--disable-gpu",                     // ✅ No GPU in CI
+      "--no-first-run",
+      "--no-zygote",
+      "--single-process",                  // ✅ Helps in restricted environments
+    ],
+  });
+
   const page = await browser.newPage();
 
   for (const route of routes) {
@@ -75,7 +83,6 @@ async function prerender() {
 
       const html = await page.content();
 
-      // Create directory for route
       const routeDir = route === "/"
         ? DIST_DIR
         : path.join(DIST_DIR, ...route.split("/").filter(Boolean));
