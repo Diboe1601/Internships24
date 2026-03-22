@@ -9,6 +9,11 @@
       "source": "/terms-conditions",
       "destination": "/terms",
       "permanent": true
+    },
+    {
+      "source": "/yes-programmes-explained-youth-employment-service",
+      "destination": "/blog/yes-programmes-explained-youth-employment-service",
+      "permanent": true
     }
   ],
   "rewrites": [
