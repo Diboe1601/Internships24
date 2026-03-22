@@ -1,7 +1,14 @@
 import { Layout } from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
+import { useSEO } from "@/hooks/useSEO";
 
 const Disclaimer = () => {
+  useSEO({
+    title: "Disclaimer | Internships24",
+    description: "Read the Internships24 disclaimer. We are not a recruitment agency and do not guarantee employment or placement.",
+    canonical: "https://www.internships24.co.za/disclaimer",
+  });
+
   return (
     <Layout>
       <section className="section-padding bg-background">

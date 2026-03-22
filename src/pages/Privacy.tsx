@@ -1,7 +1,14 @@
 import { Layout } from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
+import { useSEO } from "@/hooks/useSEO";
 
 const Privacy = () => {
+  useSEO({
+    title: "Privacy Policy | Internships24",
+    description: "Read the Internships24 privacy policy. Learn how we collect, use and protect your personal information.",
+    canonical: "https://www.internships24.co.za/privacy",
+  });
+
   return (
     <Layout>
       <section className="section-padding bg-background">

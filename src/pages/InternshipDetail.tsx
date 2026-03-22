@@ -10,12 +10,12 @@ import {
   BreadcrumbLink,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import { useSEO } from "@/hooks/useSEO";
 
 const InternshipDetail: React.FC = () => {
   const { key: rawKey } = useParams();
   const navigate = useNavigate();
 
-  // Normalize known aliases to avoid 404 on mismatched keys
   const key = rawKey === "sa-government" ? "sa-govt" : rawKey;
 
   const internship = key ? getInternshipByKey(key) : undefined;
@@ -23,6 +23,17 @@ const InternshipDetail: React.FC = () => {
 
   const opportunity = internship || learnership;
   const isLearnership = !!learnership;
+
+  // ✅ Must be before early return to follow Rules of Hooks
+  useSEO({
+    title: opportunity ? `${opportunity.title} | Internships24` : "Opportunity Not Found | Internships24",
+    description: opportunity
+      ? `Apply for ${opportunity.title}. View requirements, stipend details and how to apply on Internships24.`
+      : "This opportunity could not be found on Internships24.",
+    canonical: opportunity
+      ? `https://www.internships24.co.za/internship/${key}`
+      : "https://www.internships24.co.za",
+  });
 
   if (!opportunity) {
     return (

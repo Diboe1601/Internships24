@@ -3,8 +3,15 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, ArrowRight, User } from "lucide-react";
 import { blogPosts, categories } from "@/data/blogPosts";
+import { useSEO } from "@/hooks/useSEO";
 
 const Blog = () => {
+  useSEO({
+    title: "Career Resources & Opportunities | Internships24",
+    description: "Internship and learnership guides, tips and career resources for South African graduates and job seekers. Updated regularly.",
+    canonical: "https://www.internships24.co.za/blog",
+  });
+
   return (
     <Layout>
       {/* Hero Section */}

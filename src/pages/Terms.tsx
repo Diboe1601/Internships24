@@ -1,7 +1,14 @@
 import { Layout } from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
+import { useSEO } from "@/hooks/useSEO";
 
 const Terms = () => {
+  useSEO({
+    title: "Terms & Conditions | Internships24",
+    description: "Read the Internships24 terms and conditions. Understand your rights and responsibilities when using our platform.",
+    canonical: "https://www.internships24.co.za/terms",
+  });
+
   return (
     <Layout>
       <section className="section-padding bg-background">

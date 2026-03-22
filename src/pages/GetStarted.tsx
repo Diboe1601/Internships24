@@ -12,6 +12,7 @@ import {
   Shield,
   Clock
 } from "lucide-react";
+import { useSEO } from "@/hooks/useSEO";
 
 const steps = [
   {
@@ -63,6 +64,12 @@ const scamWarnings = [
 ];
 
 const GetStarted = () => {
+  useSEO({
+    title: "How to Use Internships24 | Get Started",
+    description: "Learn how to find and apply for internships, learnerships and graduate programmes in South Africa using Internships24.",
+    canonical: "https://www.internships24.co.za/get-started",
+  });
+  
   return (
     <Layout>
       {/* Hero Section */}

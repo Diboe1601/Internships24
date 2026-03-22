@@ -1,5 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { Target, Eye, Users, Heart } from "lucide-react";
+import { useSEO } from "@/hooks/useSEO";
 
 const values = [
   {
@@ -29,6 +30,11 @@ const values = [
 ];
 
 const About = () => {
+  useSEO({
+    title: "About Us | Internships24",
+    description: "Internships24 helps South African graduates, students and job seekers find internships, learnerships and graduate opportunities.",
+    canonical: "https://www.internships24.co.za/about",
+  });
   return (
     <Layout>
 {/* Hero Section */}

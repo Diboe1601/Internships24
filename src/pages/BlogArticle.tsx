@@ -4,11 +4,19 @@ import { Button } from "@/components/ui/button";
 import { Calendar, Clock, ArrowLeft, User } from "lucide-react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blogPosts";
 import { getLearnershipsData } from "@/data/learnerships";
+import { useSEO } from "@/hooks/useSEO";
 
 const BlogArticle = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? getBlogPostBySlug(slug) : undefined;
   const navigate = useNavigate();
+
+  // ✅ Must be before early return to follow Rules of Hooks
+  useSEO({
+    title: post ? `${post.title} | Internships24` : "Blog | Internships24",
+    description: post ? post.excerpt : "Read career tips, internship and learnership guides for South African graduates.",
+    canonical: post ? `https://www.internships24.co.za/blog/${post.slug}` : "https://www.internships24.co.za/blog",
+  });
 
   if (!post) {
     return <Navigate to="/blog" replace />;

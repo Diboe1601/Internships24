@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Mail, MapPin, Clock, Send, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { z } from "zod";
+import { useSEO } from "@/hooks/useSEO";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
@@ -49,6 +50,12 @@ const Contact = () => {
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [submitResult, setSubmitResult] = useState("");
+
+  useSEO({
+    title: "Contact Us | Internships24",
+    description: "Get in touch with the Internships24 team. We help South African youth find internships, learnerships and graduate opportunities.",
+    canonical: "https://www.internships24.co.za/contact",
+  });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
