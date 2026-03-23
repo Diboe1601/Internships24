@@ -1,3 +1,4 @@
+// scripts/prerender.ts
 import puppeteer from "puppeteer-core";
 import chromium from "@sparticuz/chromium";
 import fs from "fs";
@@ -56,18 +57,32 @@ const routes = [
 const BASE_URL = "http://localhost:4173";
 const DIST_DIR = path.resolve(__dirname, "../dist");
 
+// ✅ Common Windows Chrome paths
+const WINDOWS_CHROME_PATHS = [
+  "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+  process.env.LOCALAPPDATA + "\\Google\\Chrome\\Application\\chrome.exe",
+];
+
+function getLocalChromePath(): string {
+  for (const p of WINDOWS_CHROME_PATHS) {
+    if (fs.existsSync(p)) return p;
+  }
+  throw new Error("Chrome not found locally. Please install Google Chrome.");
+}
+
 async function prerender() {
   console.log("🚀 Starting prerender...");
 
-  // Detect if running on Vercel/CI or locally
   const isCI = process.env.CI || process.env.VERCEL;
 
+  const executablePath = isCI
+    ? await chromium.executablePath()   // ✅ Vercel — use bundled Chromium
+    : getLocalChromePath();             // ✅ Windows — use local Chrome
+
   const browser = await puppeteer.launch({
-    args: chromium.args,
-    defaultViewport: chromium.defaultViewport,
-    executablePath: isCI
-      ? await chromium.executablePath()   // ✅ Uses bundled Chromium on Vercel
-      : undefined,                         // ✅ Uses local Chrome when developing
+    args: isCI ? chromium.args : [],
+    executablePath,
     headless: true,
   });
 
