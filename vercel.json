@@ -3,17 +3,17 @@
     {
       "source": "/privacy-policy",
       "destination": "/privacy",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/terms-conditions",
       "destination": "/terms",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/yes-programmes-explained-youth-employment-service",
       "destination": "/blog/yes-programmes-explained-youth-employment-service",
-      "permanent": true
+      "statusCode": 301
     }
   ],
   "rewrites": [
