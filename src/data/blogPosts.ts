@@ -1554,66 +1554,61 @@ Get your application in ahead of deadlines, then keep an eye on updates. Every f
     content: `
 ## Your Complete Application Guide
 
-Getting an internship in South Africa takes effort beyond sending out a resume. 
-Success often comes to those who plan carefully, stay focused, then act steadily. 
-Without attention to detail, good chances slip away - simple errors cost many candidates. The path becomes clearer when broken into stages, each building confidence along the way. Students, graduates, anyone stepping forward now gains strength from structure. 
-Following this sequence shapes better results without shortcuts or guesswork.
+Getting an internship in South Africa takes more than just sending out your CV. Success comes from planning carefully, staying focused, and taking steady action. Small mistakes cost many candidates a good opportunity. 
+Breaking the process into clear steps makes it easier to manage. Follow this guide to improve your results without guesswork.
 
 ## Step 1: Self-Assessment
 
-What drives you? That question matters more than a perfect resume. Picking internships without thought tends to waste effort, leaves frustration behind. Knowing what you want shapes where you aim. Suddenly, applications feel less like shots in the dark. Clarity sharpens every cover letter. Focus begins long before forms get filled. Who are you when work gets tough? Answering that changes everything
-What you’re good at shapes where you fit best. Yet what drives your job search matters just as much. Fields that catch your attention often match deeper preferences. Time you can commit plays a quiet but strong role too.
+Before you apply anywhere, ask yourself what you actually want. 
+Picking internships without thought leads to wasted effort and frustration. Knowing your own goals helps you aim better. It makes every cover letter sharper and every application more focused.
+
 
 ## Step 2: Research Opportunities
 
-Starting fresh each morning might help spread your search wider. Jumping between sites keeps chances open instead of closing doors too soon. 
-Mix university boards with industry networks to cover more ground without doubling effort.
+Search widely and consistently. Check university job boards, industry networks, and company websites. Mixing different sources helps you find more opportunities.
 
 ### Where to Find Internships
-Job openings posted by employers directly. Some roles appear on professional networking sites instead. Schools help graduates find work too. 
-Groups for specific fields share opportunities now and then. Public programs support hiring through various efforts.
+
+Direct job postings from employers
+
+Professional networking sites. School career services. Industry-specific groups .Government hiring programmes
+
 
 ### What to Research
-A few internships actually give useful practice. Looking into each chance stops wasted time on weak setups while shaping how you present yourself. What matters shows up when effort meets clarity.
-Starts with how people behave there each day. One thing shapes intern roles - clear tasks handed out early. Papers needed? Just a form plus reference letter showing past work. Wait too long then slots fill fast so timing matters most. Not downtown but near transit stops on the edge of town.
+
+Whether the internship offers real, useful experience. Company culture and daily work environment. 
+Clear intern tasks and responsibilities. Required documents (application form, reference letter). Location and travel options
 
 ## Step 3: Prepare Your Documents
 
 ### CV/Resume
-A well-organized resume grabs attention fast. When it reads smoothly, hiring managers stay engaged longer.
 
-Two pages is plenty. Put your phone number and email up front. School comes next, with years noted clearly. Show what you can do through specific abilities tied to tasks. Experience matters, even if unpaid or short term. Begin each point with a strong doing word. 
-Finish with clean spacing and clear headings. Details speak louder than volume ever could.
+A well-organised CV grabs attention quickly. Keep it to two pages. Put your phone number and email at the top. List your education with years attended. Show specific skills tied to the job. 
+Include unpaid or short-term experience. Start each bullet point with a strong action word. Use clean spacing and clear headings.
 
 ### Cover Letter
-What drives you shows up more clearly when words aren’t boxed into resume lines. A page of plain talk can say what bullet points miss.
-Now here's how to start your job letter. Try naming the person you're writing to, if you know them. Mention the role that caught your attention. Because something about it pulled you in, say what felt meaningful. Skills that match the work should stand out clearly. 
-Excitement matters, so let some show through naturally. Always stay respectful and clear without overdoing it.
+
+A cover letter lets you say what your CV can't. Keep it to one page. Address it to a specific person if you know their name. Mention the role you're applying for. 
+Explain why it interests you. Highlight skills that match the job. Show some genuine excitement, but stay respectful and clear.
 
 ### Academic Transcripts
-Fresh out of class, some programs ask for transcripts during selection. Academic records often open doors before interviews even happen. Proof of study shows you’ve covered required material already. Without paperwork, entry might stall regardless of skill.
-Start by asking your school for formal transcripts. Get them stamped or signed to confirm they are true versions. Make sure the latest grades show up clearly.
+Some programmes ask for transcripts as proof of your studies. 
+Request formal, stamped or signed copies from your school. Make sure your latest grades are clearly shown.
 
 ### ID Document
-Finding out who someone is usually matters when checking details. Verification needs proof of identity most times.
-A certified copy should be on hand. Check that it remains current.
+Keep a certified copy of your ID on hand. Check that it is still current.
 
 ## Step 4: Submit Your Application
 
 ### Online Applications
-Few groups stick to digital gateways - precision counts. Still, mistakes slip through.
-Start by setting up profiles on business websites. Every detail matters when typing out information. 
-Files go in only if they match the needed type. Look everything over one more time prior to sending.
+Create profiles on company websites. 
+Fill in every detail carefully. Upload files in the required format. Review everything before you hit submit.
 
 ### Email Applications
-Not every company wants you to apply online. A few still ask for messages sent straight to their inbox.
-A proper email handle matters when reaching out. Starting off right begins with a straightforward subject. 
-Files should come along as PDFs, neatly included. Tone stays polished throughout the message.
+Use a professional email address. Write a clear subject line. Attach your documents as PDFs. Keep your tone polished throughout the message.
 
 ## Step 5: Follow Up
-Showing up again can reflect care and attention, if handled well.
-A week or two should pass once the date has passed. Then try reaching out again with a brief note. 
-Show you still care about the opportunity. Find out what comes next by asking when things might move forward.
+Following up shows you care, if you do it right. Wait one to two weeks after the deadline. Send a brief, polite note. Reiterate your interest. Ask about next steps.
 
 ## Step 6: Prepare for Interviews
 Should you make the cut, getting ready matters most. Success means diving into prep through these steps:
@@ -1627,18 +1622,17 @@ Rules were there - but ignored like old signs on a forgotten road.
 
 ## Disclaimer
 
-Getting help here means just that - help with info. Not a foot in the door, not a promise of work. Decisions happen elsewhere, made by others. Every detail needs checking straight from the source. What you see is direction, nothing more. Trust comes from verification, never assumptions. Opportunities belong to employers, not platforms. 
-Clarity starts when guesses end. Always go directly to the company. Real steps begin outside this site.
+This guide provides helpful information only. It does not guarantee you an internship or job. Employers make their own decisions. 
+Always verify details directly from the source. Go straight to the company for the most reliable information.
 
 ## ATS and Keywords
 These days, software scans job applications before a person sees them. Some firms rely on automated tools to sort through resumes quickly. Machines often review your details first when you apply online. Hiring tech checks keywords to decide who moves forward. Computers help narrow down piles of applicants automatically.
 Start strong by matching words from the job post in both your resume and letter. Headings like Education, Skills, Projects, Experience keep things neat. Instead of pictures or tricky layouts, stick to clean lines. That way software reads every part without trouble.
  
 ## Portfolio and Evidence
-A solid showing of ability can lift an internship request. Skills on display make a candidate harder to overlook.
-Try making basic examples - like reports, dashboards, small code bits, or layouts. Put them up on GitHub or Google Drive so others can see. 
-Add the links right into your resume. A few clear pieces work better than many messy ones. Show where you saved things by including web addresses. 
-People might click through just to check how you think. Even short projects tell something about your habits. Leave out anything too flashy. Focus on clean, working versions instead. Let the files speak without extra noise.
+
+A strong portfolio makes your application stand out. Include examples like reports, dashboards, code snippets, or designs. Upload them to GitHub or Google Drive. Add links directly in your CV. 
+A few clear, working examples are better than many messy ones. Let your work speak for itself.
  
 ## Example Email Template
  
@@ -1655,15 +1649,17 @@ Thursday carves time for shaping something real - one project built fresh. Frida
 ## Frequently Asked Questions
  
 ### Should I call HR?
-A phone number? Give them a quick ring to check things arrived and when next steps happen. Stay short. Sound courteous. Let the moment guide how formal you seem
+Yes, a quick, polite call to confirm they received your application and ask about next steps is fine. Keep it short and courteous.
  
 ### How many applications per week?
-A few thoughtful efforts beat a pile of rushed ones. Sending ten to twenty customized requests each week works better because they are focused instead of frantic. Quantity fades when quality shows up.
- 
+
+Ten to twenty well-customised applications per week is better than sending out a large number of rushed, generic ones. Focus on quality over quantity.
+
+
 ## Action Checklist
  
-Start by shaping every document to fit the job posting. A solid collection of past work helps show what you can do. Keep a clear record of where things are sent and who you talk to next. 
-When getting ready for interviews, use real examples that highlight situation, task, action, result. Always speak and write in ways that reflect care and respect.
+Tailor every document to the specific job posting. Build a solid portfolio of past work. Track where you have applied and who you have spoken to. Use real examples (situation, task, action, result) in interviews. Always communicate with care and respect
+
     `,
   },
   {
@@ -2212,9 +2208,9 @@ Start by weighing what you want to learn against how much money matters right no
     content: `
 ## Learnerships for TVET Students
 
-TVET schools help South Africans build hands-on abilities needed for real jobs. From classroom to career, those finishing these programs often rely on learnerships to make the move smoother.
+TVET colleges help South Africans build practical skills for real jobs. If you’ve just finished a TVET program, a learnership can help you move from the classroom into a career.
 
-A closer look at the choices on offer starts with knowing where to go. Applications open through specific channels, each one leading somewhere different. For those who finished TVET courses, getting ahead means using every chance that comes along.
+To find the right opportunity, you need to know where to look. Applications are handled through specific channels, each leading to different options. If you want to get ahead, use every chance you get.
 ## What is TVET?
 
 TVET colleges (previously known as FET colleges) focus on practical and occupational skills. They offer:
@@ -2270,7 +2266,7 @@ Power stations hum under Eskom’s watch. Trains roll along tracks managed by Tr
 
 ### Government
 
-Some towns offer training for young workers. The national office handling buildings and roads runs these. Each region sets up its own version too. Skilled trade courses come with construction work opportunities.
+Some local governments offer training for young people. National and regional departments also run skilled trade courses linked to construction work.
 
 ## Eligibility Requirements
 
@@ -2285,7 +2281,7 @@ Once you’re done with classes, make sure your TVET course is fully completed. 
 
 ## Tips for Success
 
-Through campus labs, gain real practice while studying. Instead of waiting, jump into brief field roles or community help tasks. Teachers, mentors, peers - stay linked with those who know the work world. Always have official copies ready, never outdated ones. When talk turns to job meetings, expect both skill tests and personal stories.
+Get hands-on practice in campus labs. Take on short field roles or community tasks. Stay connected with teachers, mentors, and peers. Keep official copies of your documents up to date. Expect both skill tests and personal interviews
 
 ## Artisan Development
 
@@ -2297,7 +2293,7 @@ Few jobs stay steady through changes - this one does. Not every path leads to gr
 
 ## Disclaimer
 
-What you get from Internships24 is just details and direction. Not tied to a single TVET school, nor a SETA, or company - no connection at all. Getting placed somewhere isn’t something we promise. Official sources should always be your way to check openings.
+Internships24 provides information and guidance only. It is not connected to any TVET college, SETA, or company. We do not guarantee job placement. Always check official sources for openings.
 
 ## Bridging Programmes
  
@@ -2322,11 +2318,11 @@ Start by protecting your account information. When ready, refresh personal data 
  
 ### Can I do a learnership while studying?
 
-Ready most of the time is expected for learnerships. If you’re in your last year, a few might accept you - check each one
+Most learnerships expect you to be ready to work full-time. If you’re in your final year, a few may accept you – check each one.
 
 ### Do TVET learnerships lead to permanent jobs?
 
-Most times it works well - if you stay on track, that is. Still, there's no promise of a spot waiting.
+They often do, especially if you perform well. But nothing is guaranteed.
 
 ## Action Checklist
  
