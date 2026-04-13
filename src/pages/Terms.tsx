@@ -6,7 +6,7 @@ const Terms = () => {
   useSEO({
     title: "Terms & Conditions | Internships24",
     description: "Read the Internships24 terms and conditions. Understand your rights and responsibilities when using our platform.",
-    canonical: "https://www.internships24.co.za/terms",
+    canonical: "https://www.internships24.co.za/terms",   // Fixed to match actual route
   });
 
   return (
@@ -21,7 +21,7 @@ const Terms = () => {
               Last updated: March 8, 2026
             </p>
 
-            {/* QUICK SUMMARY - NEW */}
+            {/* QUICK SUMMARY */}
             <section className="bg-gray-50 p-6 rounded-lg mb-8">
               <h2 className="font-heading text-2xl font-semibold mb-4">Quick Summary</h2>
               <p className="text-muted-foreground mb-4">Here's what you need to know about using Internships24:</p>
@@ -34,7 +34,7 @@ const Terms = () => {
               </ul>
             </section>
 
-            {/* QUICK NAVIGATION - NEW */}
+            {/* QUICK NAVIGATION */}
             <section className="mb-8 p-4 bg-gray-100 rounded-lg">
               <h3 className="font-heading font-semibold mb-3">Quick Navigation</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
@@ -51,7 +51,6 @@ const Terms = () => {
             </section>
 
             <div className="prose prose-lg max-w-none space-y-6 text-foreground">
-              {/* ACCEPTANCE OF TERMS - YOUR EXISTING CONTENT */}
               <section id="acceptance">
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Acceptance of Terms</h2>
                 <p className="text-muted-foreground">
@@ -59,7 +58,6 @@ const Terms = () => {
                 </p>
               </section>
 
-              {/* DESCRIPTION OF SERVICE - YOUR EXISTING CONTENT */}
               <section id="description">
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Description of Service</h2>
                 <p className="text-muted-foreground">
@@ -69,16 +67,14 @@ const Terms = () => {
                 </p>
               </section>
 
-              {/* NO EMPLOYMENT GUARANTEE - YOUR EXISTING CONTENT */}
               <section id="no-guarantee">
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">No Employment Guarantee</h2>
                 <p className="text-muted-foreground">
-                  <strong className="text-foreground">Important:</strong>  Internships24 isn't a staffing firm. Getting hired? That depends on each company, not us. While we share details about openings, it's up to you to apply. Hiring choices belong solely to the employers involved. 
+                  <strong className="text-foreground">Important:</strong> Internships24 isn't a staffing firm. Getting hired? That depends on each company, not us. While we share details about openings, it's up to you to apply. Hiring choices belong solely to the employers involved. 
                   Although our goal is support, actual results vary by organisation. Because every business runs its own selection, outcomes differ widely.
                 </p>
               </section>
 
-              {/* USER RESPONSIBILITIES - YOUR EXISTING CONTENT */}
               <section id="user-responsibilities">
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">User Responsibilities</h2>
                 <p className="text-muted-foreground mb-4">When using our website, you agree to:</p>
@@ -86,12 +82,11 @@ const Terms = () => {
                   <li>Use the website for lawful purposes only</li>
                   <li>Verify opportunity details with official sources before applying</li>
                   <li>Not submit false or misleading information through our contact forms</li>
-                  <li>Failing to mess with how the site works correctly</li>
+                  <li>Not mess with how the site works correctly</li>
                   <li>Not reproduce or distribute our content without permission</li>
                 </ul>
               </section>
 
-              {/* CONTENT ACCURACY - YOUR EXISTING CONTENT */}
               <section id="content-accuracy">
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Content Accuracy</h2>
                 <p className="text-muted-foreground">
@@ -100,17 +95,14 @@ const Terms = () => {
                 </p>
               </section>
 
-              {/* INTELLECTUAL PROPERTY - YOUR EXISTING CONTENT */}
               <section id="intellectual-property">
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Intellectual Property</h2>
                 <p className="text-muted-foreground">
                   What you see on Internships24 - words, pictures, logos, visuals - belongs to Internships24 or those who provided them. 
-                  This stuff isn't free for anyone to grab. Because it's guarded under copyright rules. Using any piece without permission? Not allowed. Protection kicks in automatically. Even if there's no small print saying so. Whoever puts work here keeps control over how it spreads. 
-                  Taking parts for your own thing behind their back crosses a line. Respect stays required. Otherwise consequences follow.
+                  This stuff isn't free for anyone to grab. Because it's guarded under copyright rules. Using any piece without permission? Not allowed.
                 </p>
               </section>
 
-              {/* THIRD-PARTY LINKS - YOUR EXISTING CONTENT */}
               <section id="third-party-links">
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Third-Party Links</h2>
                 <p className="text-muted-foreground">
@@ -119,16 +111,14 @@ const Terms = () => {
                 </p>
               </section>
 
-              {/* LIMITATION OF LIABILITY - YOUR EXISTING CONTENT */}
               <section id="liability">
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Limitation of Liability</h2>
                 <p className="text-muted-foreground">
                   Should something go wrong while using the site, Internships24 won't owe you anything. Problems tied to how you use the platform fall on you, not us. If details here lead you astray, we're not responsible. 
-                  Even if things get bad - like time lost or stress - we aren't held accountable. Punishment-level claims? Not our burden.
+                  Even if things get bad - like time lost or stress - we aren't held accountable.
                 </p>
               </section>
 
-              {/* CHANGES TO TERMS - YOUR EXISTING CONTENT */}
               <section>
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Changes to Terms</h2>
                 <p className="text-muted-foreground">
@@ -137,12 +127,12 @@ const Terms = () => {
                 </p>
               </section>
 
-              {/* CONTACT US - YOUR EXISTING CONTENT */}
               <section id="contact">
                 <h2 className="font-heading text-2xl font-semibold mt-8 mb-4">Contact Us</h2>
                 <p className="text-muted-foreground">
-                  Got a question about these terms?, please{" "}
-                  <Link to="/contact" className="text-accent hover:underline">contact us</Link> Our team reads every message. Help is just an email away. Curious about something? We're here to clarify. No query too small. Just send us a note and we'll respond quickly.
+                  Got a question about these terms? Please{" "}
+                  <Link to="/contact" className="text-accent hover:underline">contact us</Link>. 
+                  Our team reads every message.
                 </p>
               </section>
             </div>
